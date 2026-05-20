@@ -1,0 +1,335 @@
+{
+  "main": {
+    "id": "56b5f9d58389f319",
+    "type": "split",
+    "children": [
+      {
+        "id": "db1432d30dd53159",
+        "type": "tabs",
+        "dimension": 44.82315112540193,
+        "children": [
+          {
+            "id": "d2af408fd41ea4e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Yu-et-al-2007-Bottlenecks"
+            }
+          },
+          {
+            "id": "10fdc2a5ba23dff0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bb56b956b9234715",
+        "type": "tabs",
+        "dimension": 55.17684887459807,
+        "children": [
+          {
+            "id": "4088f0de50c6803a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/home/m40ista/Documents/Obsidian Vaults/m40-tcc",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/sh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "linuxIntegratedDefault",
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: ◇  Ready (m40-tcc)"
+            }
+          },
+          {
+            "id": "977b55af051f3e52",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/home/m40ista/Documents/Obsidian Vaults/m40-tcc",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/sh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "linuxIntegratedDefault",
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: sh"
+            }
+          },
+          {
+            "id": "932c8028a3969150",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba5140cddded3daa",
+    "type": "split",
+    "children": [
+      {
+        "id": "b615cfe04579cb04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be5759b33de542f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "666dbe4043d89991",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3a1a17245f0c9eea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 362.5
+  },
+  "right": {
+    "id": "7366ae5ffa18ee9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "029d74cfc9cb419c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a47832a58ca9fc0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b0d9eb30df4cb9a5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d55ed5256f62173f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0e9ee917610ba335",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "340b3155ddf93b11",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "terminal:Open terminal": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "10fdc2a5ba23dff0",
+  "lastOpenFiles": [
+    "wiki/fontes/Koschutzki-Schreiber-2008.md",
+    "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
+    "m4o-tcc",
+    "wiki/fontes/Zhang-Horvath-2005-WGCNA-Framework.md",
+    "wiki/fontes/Tran-et-al-2020.md",
+    "wiki/fontes/Montenegro-2022-WGCNA.md",
+    "wiki/fontes/Mason-Verwoerd-2007.md",
+    "wiki/fontes/Li-et-al-2018-WGCNA.md",
+    "wiki/fontes/Le-Novere-et-al-2009-SBGN.md",
+    "wiki/fontes/Koutrouli-et-al-2020.md",
+    "wiki/fontes/Kadarmideen-Watson-haigh-2012.md",
+    "wiki/fontes/Huber-et-al-2007.md",
+    "wiki/fontes/Glaab-et-al-2012-EnrichNet.md",
+    "wiki/fontes/Gao-et-al-2018.md",
+    "wiki/fontes/Freeman-1977.md",
+    "wiki/fontes/Barabasi-Linked-2004.md",
+    "wiki/fontes/Barabasi-Albert-1999.md",
+    "wiki/fontes/Albert-et-al-2000.md",
+    "wiki/fontes/Ravasz-et-al-2002-Hierarchical.md",
+    "wiki/log.md",
+    "wiki/fontes/Zagare-et-al-2025.md",
+    "wiki/conceitos/Robustez.md",
+    "wiki/conceitos/Redes Scale-free.md",
+    "wiki/conceitos/Redes de Co-expressão.md",
+    "wiki/conceitos/Organoides de Mesencéfalo.md",
+    "wiki/conceitos/Modelagem de Redes Biológicas.md",
+    "raw/Application_of_Weighted_Gene_Co-expression_Network.pdf",
+    "raw/Building gene co-expression networks.pdf",
+    "raw/albert2000.pdf",
+    "raw/A_Set_of_Measures_of_Centrality_Based_on_Betweenne.pdf",
+    "raw/Framework for Weighted Gene CoExpression Network Analysis.pdf",
+    "raw/Unconfirmed 639987.crdownload",
+    "raw/bottlenecks.pdf",
+    "raw/Unconfirmed 271646.crdownload",
+    "raw/Hierarchical Organization of.pdf"
+  ]
+}
