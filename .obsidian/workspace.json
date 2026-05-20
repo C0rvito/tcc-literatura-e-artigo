@@ -9,21 +9,7 @@
         "dimension": 44.82315112540193,
         "children": [
           {
-            "id": "d2af408fd41ea4e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Yu-et-al-2007-Bottlenecks"
-            }
-          },
-          {
-            "id": "10fdc2a5ba23dff0",
+            "id": "341a5eca3a7a310f",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -31,9 +17,22 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "98d1ae565337ac0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "bb56b956b9234715",
@@ -119,7 +118,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "Terminal: sh"
+              "title": "Terminal: ◇  Ready (m40-tcc)"
             }
           },
           {
@@ -294,42 +293,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10fdc2a5ba23dff0",
+  "active": "4088f0de50c6803a",
   "lastOpenFiles": [
+    "wiki/fontes/Barabasi-2011-Network-Medicine.md",
+    "wiki/fontes/Dou-et-al-2025-Systems-Genetics.md",
+    "wiki/fontes/Torshizi-et-al-2024-Proteogenomics.md",
+    "wiki/fontes/Kim-et-al-2020-Calcium.md",
+    "wiki/fontes/Zhao-et-al-2023-LRRK2-Tissue.md",
+    "wiki/conceitos/Module Eigengene.md",
+    "wiki/conceitos/Soft Thresholding.md",
+    "wiki/conceitos/Redes Small-World.md",
+    "wiki/conceitos/Random Walk with Restart.md",
+    "wiki/conceitos/Motivos de Rede.md",
+    "wiki/conceitos/Medida de Sobreposição Topológica.md",
+    "wiki/conceitos/Conexão Preferencial.md",
+    "wiki/index.md",
+    "wiki/conceitos/Modularidade Hierárquica.md",
+    "wiki/conceitos/Centralidade de Intermediação.md",
+    "wiki/conceitos/Fragmentação de Rede.md",
+    "wiki/conceitos/Tolerância a Erros.md",
+    "raw/s41531-020-0110-8.pdf",
+    "theses/TCC_Parkinson_PT-BR.md",
+    "theses/Unconfirmed 498623.crdownload",
+    "wiki/fontes/Zhao-et-al-2024-LRRK2.md",
+    "raw/2010_ Barabási.pdf",
+    "raw/Unconfirmed 519684.crdownload",
+    "raw/s41531-025-00870-y.pdf",
+    "raw/Unconfirmed 884924.crdownload",
+    "raw/s41467-024-50718-x.pdf",
+    "raw/Unconfirmed 843149.crdownload",
+    "raw/s41531-024-00761-8.pdf",
+    "raw/PIIS1934590920303982.pdf",
     "wiki/fontes/Koschutzki-Schreiber-2008.md",
     "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
-    "m4o-tcc",
     "wiki/fontes/Zhang-Horvath-2005-WGCNA-Framework.md",
     "wiki/fontes/Tran-et-al-2020.md",
     "wiki/fontes/Montenegro-2022-WGCNA.md",
     "wiki/fontes/Mason-Verwoerd-2007.md",
-    "wiki/fontes/Li-et-al-2018-WGCNA.md",
-    "wiki/fontes/Le-Novere-et-al-2009-SBGN.md",
-    "wiki/fontes/Koutrouli-et-al-2020.md",
-    "wiki/fontes/Kadarmideen-Watson-haigh-2012.md",
-    "wiki/fontes/Huber-et-al-2007.md",
-    "wiki/fontes/Glaab-et-al-2012-EnrichNet.md",
-    "wiki/fontes/Gao-et-al-2018.md",
-    "wiki/fontes/Freeman-1977.md",
-    "wiki/fontes/Barabasi-Linked-2004.md",
-    "wiki/fontes/Barabasi-Albert-1999.md",
-    "wiki/fontes/Albert-et-al-2000.md",
-    "wiki/fontes/Ravasz-et-al-2002-Hierarchical.md",
-    "wiki/log.md",
-    "wiki/fontes/Zagare-et-al-2025.md",
-    "wiki/conceitos/Robustez.md",
-    "wiki/conceitos/Redes Scale-free.md",
-    "wiki/conceitos/Redes de Co-expressão.md",
-    "wiki/conceitos/Organoides de Mesencéfalo.md",
-    "wiki/conceitos/Modelagem de Redes Biológicas.md",
-    "raw/Application_of_Weighted_Gene_Co-expression_Network.pdf",
-    "raw/Building gene co-expression networks.pdf",
-    "raw/albert2000.pdf",
-    "raw/A_Set_of_Measures_of_Centrality_Based_on_Betweenne.pdf",
-    "raw/Framework for Weighted Gene CoExpression Network Analysis.pdf",
-    "raw/Unconfirmed 639987.crdownload",
-    "raw/bottlenecks.pdf",
-    "raw/Unconfirmed 271646.crdownload",
-    "raw/Hierarchical Organization of.pdf"
+    "wiki/fontes/Li-et-al-2018-WGCNA.md"
   ]
 }

@@ -20,20 +20,32 @@
 - [[Ravasz-et-al-2002-Hierarchical]] - Organização Hierárquica em redes metabólicas.
 - [[Gao-et-al-2018]] - Fórmulas exatas de índices topológicos (Excentricidade).
 - [[Le-Novere-et-al-2009-SBGN]] - Padronização visual de redes de biologia de sistemas.
+- [[Zhao-et-al-2024-LRRK2]] - Transcriptômica e WGCNA do interatoma LRRK2 em sPD e LRRK2-PD.
 
 
 ## Conceitos
+- [[Centralidade de Intermediação]]
+- [[Conexão Preferencial]]
 - [[Convergência Fenotípica]]
 - [[Disfunção Mitocondrial]]
 - [[Doença de Parkinson]]
+- [[Fragmentação de Rede]]
 - [[Grafo de Conhecimento]]
 - [[Hubs (Nós Centrais)]]
+- [[Medida de Sobreposição Topológica]]
 - [[Modelagem de Redes Biológicas]]
+- [[Modularidade Hierárquica]]
+- [[Module Eigengene]]
+- [[Motivos de Rede]]
 - [[Organoides de Mesencéfalo]]
+- [[Random Walk with Restart]]
 - [[Redes de Co-expressão]]
 - [[Redes Scale-free]]
+- [[Redes Small-World]]
 - [[Robustez]]
 - [[Sinalização ROBO]]
+- [[Soft Thresholding]]
+- [[Tolerância a Erros]]
 - [[Via Autofagia-Lisossomo]]
 
 ## Entidades
