@@ -1,0 +1,5979 @@
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+1
+2
+
+GBA1 deficiency differentially affects endolysosomal trafficking in neurons
+versus astrocytes.
+
+3
+4
+5
+6
+
+Anna J. Park1†, Sarah L. Fish1†i, Colby L. Samstag2, Minsuh Kim1ii, Jeremy Weiss1iii,
+Selina Yu1, Malia L. Callier1, Ella H. Chiu1, Joshua Weiss1, Christiane S. Hampe3, Raja
+E. Estes1iv, Bernice Lin1v, Arnav Khera1vi, Dora Yearout1, Leo J. Pallanck4, Cyrus P.
+Zabetian1,2, Marie Y. Davis1,2*
+
+7
+
+†These authors contributed equally
+
+8
+
+1Veterans Affairs Puget Sound Health Care System, Seattle, WA
+
+9
+
+2Department of Neurology, University of Washington, Seattle, WA
+
+10
+
+3
+
+11
+
+4Department of Genome Sciences, University of Washington, Seattle, WA
+
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+*Corresponding author:
+Marie Y. Davis, MD, PhD
+VA Puget Sound Healthcare System
+1660 S. Columbian Way
+Seattle, WA 98108
+Tel.: +1 (206) 277-4911
+Email: myd@uw.edu
+
+29
+
+Highlights
+
+Immusoft, Seattle, WA
+
+Word count abstract: 249
+Word count main text: 5,005
+Number of references: 49
+Number of figures: 8
+Number of tables: 0 table
+Supplementary Material: 5 figures, 0 tables
+Key words: GBA1, neurons, astrocytes, endosome, lysosome, alpha-synuclein
+
+Current affiliations:
+i
+Fred Hutchinson Cancer Center, Seattle, WA
+ii
+Fred Hutchinson Cancer Center, Seattle, WA
+iii
+Albert Einstein College of Medicine, Bronx, NY
+iv
+The Vollum Institute, Oregon Health & Science University, Portland, OR
+v
+University of Montana, Missoula, MT
+vi
+The Johns Hopkins University School of Medicine, Baltimore, MD
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+30
+
+•
+
+iPSC-derived neurons and astrocytes modeled GBA1 deficiency
+
+31
+
+•
+
+Endolysosomal trafficking defects occurred only in GBA1-deficient neurons
+
+32
+
+•
+
+-synuclein oligomers accumulated in GBA1-deficient neurons, not astrocytes
+
+33
+
+•
+
+Astrocyte GBA1 loss drove neurotoxic reactive gene signatures
+
+34
+
+•
+
+GBA1 deficiency causes cell-type specific pathology
+
+35
+
+Abstract
+
+36
+
+Mutations in the gene glucosidase, beta acid 1 (GBA1) are the strongest genetic risk
+
+37
+
+factor for Parkinson’s disease (PD) and are associated with faster disease progression.
+
+38
+
+GBA1 is expressed in all cell types of the central nervous system, with some evidence
+
+39
+
+supporting higher expression in glial cells than neurons. To elucidate possible specific
+
+40
+
+functions in neurons versus glia, we differentiated human induced pluripotent stem cells
+
+41
+
+(iPSCs) generated from an individual with PD heterozygous for the GBA1 pathogenic
+
+42
+
+null variant IVS2+1 (GBA1IVS/+), homozygous GBA1 IVS2+1 isogenic to GBA1IVS/+
+
+43
+
+(GBA1IVS/IVS) and a healthy unaffected age- and sex-matched individual (GBA1+/+).
+
+44
+
+GBA1 expression was reduced in GBA1IVS/+ and GBA1IVS/IVS neurons and astrocytes.
+
+45
+
+Endolysosomal trafficking was significantly altered in GBA1-deficient neurons with
+
+46
+
+enlarged early and recycling endosome and lysosome compartments in neurons but not
+
+47
+
+in astrocytes. High molecular weight oligomerization of -synuclein and phosphorylated
+
+48
+
+Ser129 -synuclein were present in GBA1IVS/+ and GBA1IVS/IVS neurons but not in
+
+49
+
+GBA1+/+ neurons, or in GBA1-deficient or GBA1+/+ astrocytes. Transcriptomic analysis of
+
+50
+
+GBA1-deficient neurons and astrocytes revealed cell-type specific profiles. GBA1
+
+51
+
+deficiency in neurons downregulated immune response and upregulated cholesterol
+
+52
+
+synthesis pathways, while GBA1 deficiency in astrocytes downregulated genes
+
+53
+
+associated with translation and upregulated genes involved in extracellular matrix
+
+54
+
+biogenesis. Transcriptomic analysis also suggests that GBA1 deficiency induces
+
+55
+
+neurotoxic reactivity in astrocytes. Together, these findings indicate that GBA1
+
+56
+
+deficiency has cell type-specific effects, with increased neuronal vulnerability to
+
+57
+
+endolysosomal trafficking leading to -synucleinopathy while GBA1 deficiency in
+
+58
+
+astrocytes leads to increased neurotoxic reactivity independent of endolysosomal
+
+59
+
+trafficking and -synucleinopathy.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+60
+61
+62
+
+Introduction
+-synucleinopathies, encompassing Parkinson’s disease (PD), dementia with Lewy
+
+63
+
+bodies (DLB), and multiple system atrophy (MSA), are together the second most
+
+64
+
+common group of neurodegenerative disorders following Alzheimer's disease (AD). Like
+
+65
+
+AD and other neurodegenerative disorders, -synucleinopathies are characterized by
+
+66
+
+the neuropathological hallmark of intracellular proteinaceous aggregates, specifically -
+
+67
+
+synuclein oligomers. These aggregates localize intraneuronally in PD and DLB, and are
+
+68
+
+intraglial in MSA. Impairment in multiple cellular processes such as autophagy and
+
+69
+
+mitophagy have been implicated in the process leading to accumulation of aberrant -
+
+70
+
+synuclein1,2. However, the precise mechanisms by which abnormal -synuclein
+
+71
+
+processing contribute to neurodegeneration remain unclear.
+
+72
+
+Heterozygous variants in the glucosylceramidase beta 1 (GBA1) gene, encoding the
+
+73
+
+lysosomal lipid metabolism enzyme glucocerebrosidase, are the strongest genetic risk
+
+74
+
+factor for PD and DLB, with odds ratios between 3 and 203-6. GBA1 variants are not
+
+75
+
+uncommon as 5-15% of PD patients are found to carry a GBA1 variant6-8. GBA1
+
+76
+
+variants are not only associated with increased risk but also accelerated clinical
+
+77
+
+progression of both motor and cognitive symptoms in PD9-11.
+
+78
+
+Our prior work in a Drosophila model of GBA1 deficiency demonstrated altered
+
+79
+
+extracellular vesicle biogenesis resulting in the accelerated spread of protein
+
+80
+
+aggregation, implicating the endolysosomal trafficking system12-14. Endolysosomal
+
+81
+
+trafficking is a complex and highly regulated intracellular vesicular system that
+
+82
+
+encompasses internalization of extracellular cargo targeted to specific organelles,
+
+83
+
+recycling and degradation of intracellular proteins and cargo, a secretion of cargo into
+
+84
+
+the extracellular space, either packaged within membrane bound extracellular vesicles
+
+85
+
+or directly into the extracellular matrix15. Impaired endolysosomal trafficking is implicated
+
+86
+
+in the pathogenesis of neurodegenerative diseases, including AD and PD1,12-14,16,17 and
+
+87
+
+is largely unexplored in how the processing of pathogenic proteins in different cell types
+
+88
+
+influences neurodegeneration. Interestingly, the efficiency of endolysosomal trafficking
+
+89
+
+is tailored to specific cell types, where cells with phagocytic activity such as microglia
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+90
+
+and astrocytes have been found to have more efficient endocytic trafficking of cargo,
+
+91
+
+including -synuclein compared to neurons2,18.
+
+92
+
+Although astrocytes have lower endogenous expression of -synuclein19, -
+
+93
+
+synucleinopathy is found in both neurons and astrocytes in PD and DLB, and
+
+94
+
+predominantly in glia in MSA20. In vitro studies have demonstrated that astrocytes can
+
+95
+
+internalize a-synuclein oligomers more rapidly than neurons2,21,22, and network analysis
+
+96
+
+of proteomic data suggests that astrocytic endolysosomal processing of -synuclein
+
+97
+
+differs from neuronal processing23. These studies suggest that endolysosomal trafficking
+
+98
+
+can differ in capacity in specific cell types, which could have implications on cell type-
+
+99
+
+specific susceptibility to neurodegeneration.
+
+100
+
+To investigate whether GBA1 deficiency has a differential effect on endolysosomal
+
+101
+
+trafficking in neurons and glia, we generated both dopaminergic midbrain neurons and
+
+102
+
+astrocytes from control and GBA1-deficient human iPSCs carrying a null mutation.
+
+103
+
+Interestingly, we found that GBA1 deficiency had a significant impact on early
+
+104
+
+endosome, recycling endosome, and lysosome morphology in neurons but not
+
+105
+
+astrocytes. The protein expression of early endosome antigen 1 (EEA1)- a marker for
+
+106
+
+early endosomes and Rab11- a small GTPase protein involved in vesicular trafficking
+
+107
+
+and recycling endosomes, was also increased in GBA1-deficient neurons but not
+
+108
+
+astrocytes. The expression of lysosome-associated membrane protein 1 (LAMP1)- a
+
+109
+
+protein mainly found on lysosome and late endosomes, was increased in GBA1-
+
+110
+
+deficient neurons and astrocytes with complete knockout of GBA1. Pathologic
+
+111
+
+phosphorylated and oligomeric -synuclein was only detected in GBA1-deficient
+
+112
+
+neurons, not astrocytes. These results indicate that GBA1-deficiency perturbs
+
+113
+
+endolysosomal trafficking and α-synuclein processing in a cell-specific manner.
+
+114
+
+Transcriptomic profiling of GBA1-deficient neurons and astrocytes surprisingly
+
+115
+
+revealed minimal overlap of differentially expressed genes in astrocytes and neurons,
+
+116
+
+indicating more divergent cell-type specific alterations than expected. Expression of
+
+117
+
+genes involved in cholesterol metabolism and immune response were specifically
+
+118
+
+altered in GBA1-deficient neurons, while genes involved in extracellular matrix and
+
+119
+
+translation were specifically dysregulated in astrocytes. Together, our findings indicate
+
+120
+
+that GBA1 deficiency drives specific disease-relevant pathogenic processes in neurons
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+121
+
+and astrocytes, linking impaired endolysosomal trafficking to -synucleinopathy in
+
+122
+
+neurons, and promoting reactive transcriptional changes in astrocytes independent of -
+
+123
+
+synucleinopathy in astrocytes. Elucidating how GBA1 deficiency impacts cell-specific
+
+124
+
+functions of neurons and glia is critical for better understanding the complex
+
+125
+
+pathogenesis of -synucleinopathies and developing novel therapeutic cell-type specific
+
+126
+
+strategies to mitigate neurodegeneration.
+
+127
+128
+
+Results
+
+129
+
+We generated human iPSCs from fibroblasts from an individual with PD carrying the
+
+130
+
+GBA1 c.115+1 G>A, also known as IVS2+1 G>A variant (GBA1IVS/+). This intronic GBA1
+
+131
+
+variant is associated with severe neuronopathic Gaucher’s disease and interrupts the
+
+132
+
+canonical splice site following exon 2, leading to nonsense mediated decay and is
+
+133
+
+therefore considered a null allele24. An isogenic GBA1+/+ Rev control was generated by
+
+134
+
+CRISPR/Cas9 genome editing to revert the GBA1 IVS2+1 G>A variant back to wildtype,
+
+135
+
+and in the genome editing process, an iPSC clone homozygous for GBA1 IVS2+1 G>A
+
+136
+
+was also generated (GBA1IVS/IVS) (S Fig 1). A matched control iPSC clone that remained
+
+137
+
+unedited after CRISPR/Cas9 genome editing, maintaining heterozygosity for GBA1
+
+138
+
+IVS2+1 G>A, was also isolated (GBA1IVS/+ A4) (Fig 1A). All isolated lines generated by
+
+139
+
+CRISPR/Cas9 editing were confirmed to not have alterations to the pseudogene
+
+140
+
+GBAP1 (S. Fig 1). Additional control iPSC lines were generated from peripheral blood
+
+141
+
+monocytes from a healthy age- and sex-matched individual (GBA1+/+) unrelated to the
+
+142
+
+individual carrying the GBA1 IVS2+1 G>A variant.
+
+143
+
+Three GBA1IVS/+ clones (#1,2,6), three GBA1+/+ clones (#1,2,3), a GBA1+/+ Rev
+
+144
+
+isogenic control clone, GBA1IVS/+ A4 clone, and a homozygous null GBA1IVS/IVS iPSC
+
+145
+
+clone were confirmed to not have chromosomal abnormalities by karyotype
+
+146
+
+differentiated into neural progenitor cells (NPCs) prior to differentiation into midbrain
+
+147
+
+dopaminergic neurons and astrocytes (S. Fig 2). Neuronal differentiation of NPCs was
+
+148
+
+confirmed by anti-microtubule-associated protein 2 (MAP2) expression, and
+
+149
+
+differentiation into dopaminergic neurons was confirmed by anti-tyrosine hydroxylase
+
+150
+
+(TH) staining (Fig 1A). Astrocyte identity was confirmed by anti-S100β (Fig 1A). To
+
+151
+
+confirm reduction in glucocerebrosidase (GCase) enzyme activity in GBA1IVS/+ and
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+152
+
+GBA1IVS/IVS NPCs, we measured GCase activity using the fluorescent synthetic
+
+153
+
+glucocerebrosidase substrate 4-methylumbelliferyl-beta-D-glucopyranoside. GBA1+/+
+
+154
+
+treated with conduritol B epoxide (CBE), an irreversible inhibitor of glucocerebrosidase,
+
+155
+
+was used as a positive control. While GBA1IVS/+ NPCs trended to reduced
+
+156
+
+glucocerebrosidase (GCase) enzyme activity compared to GBA1+/+ clones, GCase
+
+157
+
+enzyme activity was nearly undetectable in GBA1IVS/IVS NPCs (Fig 1B). GBA1 protein
+
+158
+
+levels were significantly reduced in GBA1IVS/+ neurons and nearly undetectable in
+
+159
+
+GBA1IVS/IVS neurons (Fig 1C-D).
+
+160
+
+To further validate that we successfully differentiated iPSCs into midbrain
+
+161
+
+dopaminergic neurons and astrocytes we performed RNA-seq of neurons and
+
+162
+
+astrocytes differentiated from unaffected healthy GBA1+/+ clones. Transcriptomic profiles
+
+163
+
+confirmed significantly increased expression of neuronal-specific genes in control
+
+164
+
+neurons, and astrocyte-specific genes in control astrocytes (Fig 1E). Consistent with
+
+165
+
+known reduced expression of SNCA in glia compared to neurons, SNCA expression
+
+166
+
+was downregulated in GBA1+/+ astrocytes compared to GBA1+/+ neurons by 73%.
+
+167
+
+Upregulations of TH, DDC, DRD1 and DRD4 in neurons compared to astrocytes is
+
+168
+
+consistent with successful differentiation into midbrain dopaminergic neurons (Fig 1E).
+
+169
+
+We expected that the transcriptomic profile of cells differentiated from the GBA1+/+
+
+170
+
+Rev isogenic control line would be largely concordant the three control GBA1+/+ clonal
+
+171
+
+lines, however we found that over 6,000 genes were differentially expressed between
+
+172
+
+GBA1+/+ and GBA1+/+ Rev neurons (S Fig 3A). Furthermore, principal component
+
+173
+
+analysis (PCA) (S Fig 3B) revealed significant separation between GBA1+/+ and
+
+174
+
+GBA1+/+ Rev neurons, with 78.43% total variance in the first principal component and
+
+175
+
+20.65% total variance in the second principal component. 2,774 genes were
+
+176
+
+differentially regulated between control GBA1+/+ clones and isogenic GBA1+/+ Rev
+
+177
+
+astrocytes (S Fig 4A). PCA comparing astrocytes from 3 GBA1+/+ clones and isogenic
+
+178
+
+GBA1+/+ Rev astrocytes revealed significant separation with 53% total variance in the
+
+179
+
+first component and 29.9% total variance in the second component (S Fig 4B). This
+
+180
+
+significant difference in transcriptomic profile between our isogenic GBA1+/+ Rev and the
+
+181
+
+unrelated age-and sex-matched GBA1+/+ was surprising and led us to suspect that the
+
+182
+
+transcriptomic alterations in the GBA1+/+ Rev isogenic iPSC control line may be due to
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+183
+
+the 10 additional passages while undergoing CRISPR/Cas9 editing. To test this
+
+184
+
+hypothesis, we examined the transcriptomic profiles of astrocytes and neurons
+
+185
+
+differentiated from GBA1IVS/+ A4 iPSCs which underwent the CRISPR/Cas9 genome
+
+186
+
+editing process in parallel to the cells that resulted in the isogenic control GBA1+/+ Rev
+
+187
+
+but remained unedited and therefore should be equivalent to GBA1IVS/+ cells. However,
+
+188
+
+GBA1IVS/+ A4 neurons also differed significantly in transcriptomic profile compared to
+
+189
+
+GBA1IVS/+ neurons, with 2,319 differentially expressed genes, and greater than 50%
+
+190
+
+total variance in the first component of principal component analysis (S Fig 5A). The
+
+191
+
+transcriptomic profiles of GBA1IVS/+ A4 astrocytes compared to GBA1IVS/+ astrocytes
+
+192
+
+were less divergent, with only 585 genes differentially expressed (S Fig 5B). However,
+
+193
+
+because of the concern that the additional passages and CRISPR/Cas9 genome editing
+
+194
+
+had additional adverse effects we used iPSCs generated from an unrelated age- and
+
+195
+
+sex-matched unaffected control and an additional negative control of healthy age- and
+
+196
+
+sex-matched GBA1+/+ cells treated with 100mM Conduritol B epoxide (CBE), an
+
+197
+
+irreversible inhibitor of glucocerebrosidase, in our subsequent analyses.
+
+198
+
+To determine whether GBA1 deficiency affects endolysosomal trafficking similarly in
+
+199
+
+neurons and astrocytes, we examined the morphology of early endosomes, recycling
+
+200
+
+endosomes, and lysosomes in GBA1+/+ and GBA1-deficient dopaminergic neurons and
+
+201
+
+astrocytes by immunocytochemistry (ICC). GBA1+/+ and GBA1-deficient neurons and
+
+202
+
+astrocytes differentiated from 3 different GBA1IVS/+ iPSC clones (#1,2,6), and 3 different
+
+203
+
+control GBA1+/+ clones (#1,2,4) as well as the GBA1IVS/IVS iPSC clone and a GBA1+/+
+
+204
+
+clone (#2) treated with 100mM CBE were fixed and co-stained 10-14 days after
+
+205
+
+completing differentiation and maturation with antibodies specific for early endosomes
+
+206
+
+(anti-EEA1), lysosomes (anti-LAMP1), or recycling endosomes (anti-Rab11). Anti-MAP2
+
+207
+
+and anti-Vimentin were used as markers of neurons and astrocytes, respectively, as
+
+208
+
+both stained the entire cell body reliably, which was necessary for quantitative
+
+209
+
+morphological analysis. To analyze the morphology of early endosomes, lysosomes, or
+
+210
+
+recycling endosomes, we 3D-reconstructed confocal z-stack images of neurons and
+
+211
+
+astrocytes stained for vesicular organelles using Imaris software to determine the
+
+212
+
+volume and size of the stained vesicular structures within the volume of the cell in which
+
+213
+
+those structures were located. The compartment size of early endosomes, lysosomes,
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+214
+
+and recycling endosomes was then quantified by calculating the sum of the volume of
+
+215
+
+all stained vesicles within a cell divided by the volume of that cell. The diameter of all
+
+216
+
+stained vesicles ascertained in cells from a specific genotype or group was also
+
+217
+
+analyzed, as the size of the vesicles could be altered independent of overall
+
+218
+
+compartment size, indicating impairment in fusion or fission of vesicles. Given the large
+
+219
+
+size of these data sets, we used Cohen’s d to assess the significance between groups
+
+220
+
+in addition to one-way ANOVA to determine significant changes between genotypes.
+
+221
+
+Representative mages and analyses are shown for one representative GBA1+/+ and
+
+222
+
+GBA1IVS/+ clone however data for all clones is available on Mendeley Data
+
+223
+
+DOI:10.17632/fgswr9ctcr.1.
+
+224
+
+Morphological analysis of endolysosomal trafficking in GBA1-deficient neurons
+
+225
+
+revealed significant alterations compared to control neurons. The diameter of EEA1-
+
+226
+
+stained early endosome vesicles did not differ significantly between GBA1-deficient and
+
+227
+
+GBA1+/+ neurons. However, the early endosome compartment of GBA1IVS/+ and
+
+228
+
+GBA1IVS/IVS neurons was significantly enlarged compared to GBA1+/+. CBE treatment of
+
+229
+
+GBA1+/+ neurons resulted in the greatest enlargement of the early endosome
+
+230
+
+compartment (Fig 2A-C). EEA1 protein expression was not significantly increased in
+
+231
+
+GBA1IVS/+ neurons compared to GBA1+/+ neurons, but significantly higher in GBA1IVS/IVS
+
+232
+
+neurons, and the largest increase in EEA1 expression was found in GBA1+/+ neurons
+
+233
+
+treated with CBE (Fig 2D). CBE inhibits not only lysosomal GBA1 but also GBA2, a
+
+234
+
+cytosolic GCase associated with ER and Golgi membranes that can transfer glucose to
+
+235
+
+cholesterol in addition to hydrolyzing glucosylceramide to glucose and ceramide. The
+
+236
+
+increased effect of CBE in GBA1+/+ neurons on early endosomes compared to
+
+237
+
+GBA1IVS/IVS neurons is likely due to inhibiting both glucocerebrosidase 1 and 2 enzyme
+
+238
+
+function, as GBA2 has been shown to regulate acidification of the lysosome and
+
+239
+
+endolysosomal trafficking to the Golgi25.
+
+240
+
+Surprisingly, early endosomes were not significantly altered in GBA1IVS/+ or
+
+241
+
+GBA1IVS/IVS astrocytes compared to GBA1+/+, either in diameter or compartment size
+
+242
+
+(Fig 2 E-G). CBE treatment of GBA1+/+ astrocytes also did not significantly affect early
+
+243
+
+endosome morphology. Western blot with anti-EEA1 antibody confirmed that EEA1
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+244
+
+expression was not significantly altered in GBA1IVS/+, GBA1IVS/IVS and GBA1+/+
+
+245
+
+astrocytes, as well as GBA1+/+ astrocytes treated with CBE (Fig 2H).
+
+246
+
+Lysosomes were significantly altered in GBA1-deficient neurons and CBE-treated
+
+247
+
+GBA1+/+ astrocytes, but not GBA1IVS/+ or GBA1IVS/IVS astrocytes. While individual
+
+248
+
+lysosome size was not significantly different between GBA1IVS/+, GBA1IVS/IVS and
+
+249
+
+GBA1+/+ neurons treated with CBE compared to GBA1+/+, total compartment size was
+
+250
+
+enlarged in GBA1IVS/+, GBA1IVS/IVS and GBA1+/+ neurons with CBE treatment (Fig 3 A-
+
+251
+
+C). LAMP1 protein expression was significantly increased in GBA1+/+ neurons treated
+
+252
+
+with CBE and GBA1IVS/IVS neurons but not significantly altered in GBA1IVS/+ compared to
+
+253
+
+GBA1+/+ neurons (Fig 3D). While GBA1IVS/+, GBA1IVS/IVS and GBA1+/+ astrocytes treated
+
+254
+
+with CBE did not have significantly enlarged lysosomes, the lysosomal compartment of
+
+255
+
+only GBA1+/+ astrocytes treated with CBE was enlarged compared to GBA1+/+ (Fig 3E-
+
+256
+
+G). However, LAMP1 protein expression was significantly increased in GBA1IVS/IVS
+
+257
+
+astrocytes and reduced in GBA1IVS/+ astrocytes when compared to GBA1+/+ (Fig 3H).
+
+258
+
+Recycling endosomes are an important branch point in the endocytic system for
+
+259
+
+trafficking proteins and lipids to the lysosome or the plasma membrane for extracellular
+
+260
+
+secretion within exosomes15. Given our prior findings in our GBA1 mutant Drosophila
+
+261
+
+model, dGBA1b, suggesting that GBA1 deficiency alters extracellular vesicle
+
+262
+
+biogenesis12, we were particularly interested in whether GBA1 deficiency perturbs
+
+263
+
+recycling endosomes. We investigated whether Rab11, a key regulator and marker of
+
+264
+
+recycling endosomes, was altered in our GBA1-deficient and GBA1+/+ neurons and
+
+265
+
+astrocytes. Morphological analysis of RAB11-stained GBA1IVS/+ and GBA1IVS/IVS neurons
+
+266
+
+did not reveal a significant difference in size of individual recycling endosomes, but the
+
+267
+
+compartment size of recycling endosomes was significantly enlarged in GBA1IVS/+,
+
+268
+
+GBA1IVS/IVS, and GBA1+/+ neurons treated with CBE (Fig 4A-C). Western blot of RAB11
+
+269
+
+protein levels in GBA1-deficient neurons revealed a dose-dependent increase in RAB11
+
+270
+
+protein levels in GBA1IVS/+ and GBA1IVS/IVS neurons, and even further increase in
+
+271
+
+GBA1+/+ neurons treated with CBE (Fig 4D). GBA1-deficient astrocytes again differed
+
+272
+
+from neurons, showing no enlargement of the compartment size nor individual size of
+
+273
+
+recycling endosomes compared to GBA1+/+ (Fig 4E-G). RAB11 protein level was not
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+274
+
+significantly altered between GBA1IVS/+, GBA1IVS/IVS and GBA1+/+ astrocytes treated with
+
+275
+
+CBE (Fig 4H).
+
+276
+
+To test whether the observed differences in endolysosomal trafficking in GBA1-
+
+277
+
+deficient neurons and astrocytes correlate with presence of pathogenic a-synuclein, a
+
+278
+
+hallmark finding in -synucleinopathies, we examined whether phosphorylated and
+
+279
+
+aggregated a-synuclein was present in our GBA1-deficient iPSC-neurons and
+
+280
+
+astrocytes. Neurons stained with an antibody specific to aggregated -synuclein
+
+281
+
+revealed increased staining in GBA1IVS/+, GBA1IVS/IVS and GBA1+/+ neurons treated with
+
+282
+
+CBE (Fig 5A, B). Western blot for phosphorylated -synuclein at Serine 129 was
+
+283
+
+undetectable in GBA1+/+ neurons, but present in GBA1IVS/+, GBA1IVS/IVS and GBA1+/+
+
+284
+
+neurons treated with CBE (Fig 5C). Western blot using an antibody that recognizes both
+
+285
+
+-synuclein monomers and oligomers (BD Biosciences #610787) revealed ~120 kD
+
+286
+
+octamers of -synuclein in the Triton X-100 insoluble protein fraction of GBA1IVS/+,
+
+287
+
+GBA1IVS/IVS and CBE-treated GBA1+/+ neurons, but not in GBA1+/+ neurons (Fig 5D).
+
+288
+
+ICC of astrocytes with an antibody specific to aggregated -synuclein (Abcam
+
+289
+
+ab209538) revealed an increase in staining only in the GBA1IVS/IVS astrocytes compared
+
+290
+
+to controls (Fig 5E-F). Pathogenic phosphorylated -synuclein and -synuclein
+
+291
+
+oligomers were not significantly increased in GBA1IVS/+, GBA1IVS/IVS and GBA1+/+
+
+292
+
+astrocytes treated with CBE compared to GBA1+/+ astrocytes (Fig 5G, H).
+
+293
+
+To obtain more global insight into how GBA1 deficiency alters neurons differentially
+
+294
+
+from astrocytes, we submitted GBA1IVS/+, GBA1IVS/IVS and GBA1+/+ neurons and
+
+295
+
+astrocytes for RNA-seq analysis (Fig 6A). GBA1 expression was not significantly
+
+296
+
+reduced in GBA1IVS/+ neurons or astrocytes compared to GBA1+/+ neurons or
+
+297
+
+astrocytes, respectively. However, GBA1 expression was downregulated by 80% in
+
+298
+
+GBA1IVS/IVS neurons compared to GBA1+/+ neurons and 64% in GBA1IVS/IVS astrocytes
+
+299
+
+compared to GBA1+/+ astrocytes. These reductions likely underestimate the true
+
+300
+
+difference due to transcripts from the GBA1 pseudogene GBAP1, which shares 96%
+
+301
+
+sequence identity with GBA126. Interestingly, GBA2 was upregulated by 103% in
+
+302
+
+GBA1IVS/IVS astrocytes compared to GBA1+/+ astrocytes but not differentially expressed
+
+303
+
+in GBA1-deficient neurons. Of note, Synuclein-alpha (SNCA) was not differentially
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+304
+
+expressed in GBA1IVS/+ or GBA1IVS/IVS neurons or astrocytes compared to control
+
+305
+
+neurons or astrocytes. EEA1 was downregulated in GBA1IVS/+ neurons by 62% but not
+
+306
+
+astrocytes, and multiple Rab proteins and other proteins involved in macroautophagy
+
+307
+
+and retromer function, including LRRK2, were differentially expressed in GBA1IVS/+
+
+308
+
+neurons compared to GBA1+/+ neurons, but not GBA1IVS/+ astrocytes compared to
+
+309
+
+GBA1+/+ astrocytes. The differentially regulated genes in GBA1IVS/+ neurons and
+
+310
+
+astrocytes compared to GBA1+/+ neurons and astrocytes, respectively, are graphically
+
+311
+
+summarized by volcano plots in Fig 6B-C.
+
+312
+
+To focus on transcriptional changes specific to GBA1 deficiency, we compared
+
+313
+
+differentially expressed genes (DEGs) in GBA1IVS/+ and GBA1IVS/IVS neurons compared
+
+314
+
+to GBA1+/+ neurons and found that there was significant overlap in DEGs by log 0.5 fold
+
+315
+
+change or greater, with the majority of DEGs downregulated (1,398 genes) in GBA1-
+
+316
+
+deficient neurons and 576 upregulated (Fig 6D-F). In contrast, the majority of DEGs in
+
+317
+
+GBA1-deficient astrocytes were upregulated (1,007) compared to downregulated (438)
+
+318
+
+(Fig 6D-F). DEGs common to both GBA1IVS/+ and GBA1IVS/IVS neurons or astrocytes at a
+
+319
+
+threshold of log0.5 fold or greater were termed “consensus DEGs.” We then compared
+
+320
+
+neuron and astrocyte consensus DEGs and found that the majority of DEGs were non-
+
+321
+
+overlapping, supporting our in vitro findings that GBA1 deficiency has a cell type-
+
+322
+
+specific effect (Figure 6D-F).
+
+323
+
+We performed Gene Set Enrichment Analysis (GSEA)27 using the Reactome
+
+324
+
+pathway database to compare DEGs specific to GBA1-deficient neurons versus those
+
+325
+
+specific to astrocytes, and found strikingly different cellular pathways were affected
+
+326
+
+(Figure 6G-H). GBA1-deficient neurons upregulated genes involved in cholesterol
+
+327
+
+biosynthesis, axon guidance, Raf activation, and immune cell signaling, whereas
+
+328
+
+downregulated genes in GBA1-deficient neurons were primarily implicated in immune
+
+329
+
+signaling (Fig 6G). GSEA for Reactome pathways in GBA1-deficient astrocytes revealed
+
+330
+
+upregulation of genes involved in extracellular matrix biogenesis, while downregulated
+
+331
+
+genes in GBA1-deficient astrocytes included genes involved in translation (Fig 6H),
+
+332
+
+suggesting a more reactive astrocyte population promoting extracellular remodeling
+
+333
+
+leading to gliosis28.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+334
+
+We examined in greater depth the 255 DEGs shared by both GBA1-deficient
+
+335
+
+neurons and astrocytes to gain insight into common pathways regulated by GBA1 in
+
+336
+
+both cell types. Overall, GBA1-deficient astrocytes tended to have greater change in
+
+337
+
+differential expression of concordant genes compared to GBA1-deficient neurons, as
+
+338
+
+indicated in a heatmap of the average expression level between GBA1IVS/+ and
+
+339
+
+GBA1IVS/IVS neurons, and GBA1IVS/+ and GBA1IVS/IVS astrocytes (Fig 7A). The
+
+340
+
+concordance is also demonstrated in a scatterplot log2 fold change DEGs in GBA1-
+
+341
+
+deficient astrocytes versus log2 fold change DEGs in GBA1-deficient neurons, where
+
+342
+
+Pearson r = 0.889 (Fig 7B). DEGs shared by GBA1-deficient neurons and astrocytes
+
+343
+
+included genes involved in lipid metabolism, lysosome and autophagy function,
+
+344
+
+mitochondrial function, ER stress response, ER-membrane contacts and epigenetic
+
+345
+
+pathways (Fig 7C-E). Perturbations of these pathways, particularly in sphingolipid
+
+346
+
+metabolism, ER membrane interactions, lysosomes and autophagy were anticipated
+
+347
+
+given glucocerebrosidase is a lysosomal enzyme that catabolizes the glycolipid
+
+348
+
+glucocerebroside into ceramide. In addition to altering sphingolipid abundance, which
+
+349
+
+would likely impact membrane phospholipid composition, ceramides can also modulate
+
+350
+
+lipid rafts, membrane fluidity, and exocytosis29-31.
+
+351
+
+Most of the DEGs in GBA1-deficient astrocytes and neurons are not overlapping,
+
+352
+
+suggesting cell-type specific perturbation of pathways. We examined the neuron-
+
+353
+
+specific and astrocyte-specific consensus DEGs to determine which cell type-specific
+
+354
+
+pathways might be altered by GBA1 deficiency. We found that lipid metabolism genes,
+
+355
+
+including APOE and CH25H, were differentially upregulated in GBA1-deficient
+
+356
+
+astrocytes (Fig 8A, C). GBA1-deficient astrocytes differentially upregulated genes
+
+357
+
+associated with reactive astrocytes and gliosis, including CXCL1 and CHI3L1
+
+358
+
+suggestive of reactive neurotoxic A1 astrocytes32(Fig 8A-B), while interferon response
+
+359
+
+genes were differentially downregulated in GBA1-deficient neurons compared to
+
+360
+
+astrocytes (Fig 8F). GBA1-deficient astrocytes also differentially upregulated cholesterol
+
+361
+
+efflux and sphingolipid genes, while GBA1-deficient neurons differentially upregulated
+
+362
+
+genes involved in cholesterol synthesis and fatty acid desaturation (Fig 8C).
+
+363
+
+Surprisingly, EEA1 mRNA expression was reduced in GBA1IVS/+ neurons by 63%
+
+364
+
+compared to GBA1+/+ neurons. EEA1 was not differentially expressed in GBA1IVS/+
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+365
+
+astrocytes compared to GBA1+/+ astrocytes, however several other genes involved in
+
+366
+
+intracellular membrane trafficking and autophagy (Fig 8D) and the ER stress/UPR
+
+367
+
+response (Fig 8E) were upregulated in GBA1-deficient astrocytes. GBA1-deficient
+
+368
+
+neurons displayed significant downregulation of genes responsive to type 1 interferon
+
+369
+
+(Fig 8F). Overall, the transcriptomic profiles of GBA1-deficient neurons were divergent
+
+370
+
+from GBA1-deficient astrocytes, with downregulation of inflammatory pathways, and
+
+371
+
+upregulation in cholesterol synthesis, whereas GBA1-deficiency in astrocytes
+
+372
+
+specifically upregulated APOE and lipid efflux as well as extracellular matrix biogenesis
+
+373
+
+pathways and downregulated genes involved in translation.
+
+374
+375
+
+Discussion
+
+376
+
+The underlying cellular mechanisms responsible for the association between GBA1
+
+377
+
+deficiency and both PD/DLB risk and faster disease progression have been difficult to
+
+378
+
+elucidate. Our study using human iPSC-derived neurons and astrocytes reveals a cell
+
+379
+
+type specific differential effect of GBA1 deficiency, where neurons are more susceptible
+
+380
+
+to perturbation in endolysosomal trafficking and -synucleinopathy compared to
+
+381
+
+astrocytes. We found that early endosomes, lysosomes, and recycling endosomes were
+
+382
+
+all enlarged in cellular compartment size in GBA1-deficient neurons. However, only
+
+383
+
+treatment with CBE of GBA1+/+ astrocytes resulted in enlarged lysosome cellular
+
+384
+
+compartment size, while GBA1-deficient astrocytes did not significantly differ in early or
+
+385
+
+recycling endosome or lysosome compartment size compared to GBA1+/+ astrocytes.
+
+386
+
+These differences correlate with the presence of pathogenic -synuclein aggregation
+
+387
+
+and phosphorylation in neurons but not astrocytes. Transcriptomic profiling of GBA1-
+
+388
+
+deficient neurons and astrocytes confirmed cell-type specific effects, where the majority
+
+389
+
+of DEGs in GBA1-deficient neurons were downregulated, while the majority of DEGs in
+
+390
+
+GBA1-deficient astrocytes were upregulated. Upregulated DEGs in GBA1-deficient
+
+391
+
+neurons included genes in cholesterol synthesis and lipid metabolism pathways, and
+
+392
+
+downregulation of genes involved in inflammatory pathways. In contrast, GBA1-
+
+393
+
+deficient astrocytes had upregulation of genes involved in extracellular matrix
+
+394
+
+biogenesis, neurotoxic astrocyte reactivity, and downregulation of genes involved in
+
+395
+
+translational machinery. These findings suggest that dopaminergic neurons are more
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+396
+
+susceptible to endolysosomal trafficking defects due to GBA1-deficieny, leading to -
+
+397
+
+synucleinopathy. However, GBA1-deficiency may have a deleterious impact on
+
+398
+
+astrocytes that is independent of -synucleinopathy.
+
+399
+
+Prior work has found enlarged lysosomes and autophagolysosomes in multiple
+
+400
+
+models of GBA1-deficiency33,34 and human postmortem tissue35. However, early
+
+401
+
+endosome defects have not been characterized in GBA1-deficient neurons. Both
+
+402
+
+GBA1IVS/+ and GBA1IVS/IVS neurons were found to have an enlarged early endosome
+
+403
+
+compartment size and increased protein expression of EEA1 by Western blot, even
+
+404
+
+though EEA1 mRNA expression was reduced in GBA1IVS/+ neurons compared to
+
+405
+
+GBA1+/+ neurons. These findings suggest that GBA1 deficiency reduces the fission
+
+406
+
+and/or fusion of early endosomes, resulting in accumulation of enlarged early
+
+407
+
+endosomes and EEA1 protein. Similar alterations in lysosomes and recycling
+
+408
+
+endosomes were found in GBA1IVS/+ and GBA1IVS/IVS neurons. Surprisingly, we did not
+
+409
+
+observe enlarged compartment size of early endosomes, lysosomes or recycling
+
+410
+
+endosomes in GBA1IVS/+, GBA1IVS/IVS or GBA1+/+ astrocytes treated with the GCase
+
+411
+
+inhibitor CBE. Together, our findings indicate that endolysosomal trafficking in neurons
+
+412
+
+is more susceptible to GBA1 deficiency than astrocytes, although when GCase activity
+
+413
+
+is severely reduced or inhibited, endolysosomal trafficking is also impaired in astrocytes.
+
+414
+
+The increased susceptibility of neurons to effects of GBA1 deficiency on
+
+415
+
+endolysosomal trafficking is correlated with the presence of pathogenic -synuclein
+
+416
+
+phosphorylation and aggregation. Human postmortem tissue and in vitro models
+
+417
+
+suggest that phosphorylation of Ser129 may promote pathogenic -synuclein
+
+418
+
+aggregation36,37. Recent work revealed phosphorylation of Ser129 impairs interactions
+
+419
+
+between the ER and mitochondrial membranes, leading to mitochondrial dysfunction
+
+420
+
+and calcium dysregulation38. Interestingly, pathogenic forms of -synuclein were
+
+421
+
+detected in our GBA1-deficient neurons but not astrocytes and transcriptomic analysis
+
+422
+
+of our GBA1-deficient neurons revealed upregulation in genes involved in ER-
+
+423
+
+mitochondrial membrane interactions. Further elucidation of how GBA1 deficiency
+
+424
+
+regulates phosphorylation of Ser129 of -synuclein and perturbs mitochondrial-
+
+425
+
+associated membrane interactions could provide insight into the pathogenesis of -
+
+426
+
+synucleinopathies.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+427
+
+Several studies have suggested that astrocytes may have more efficient
+
+428
+
+endolysosomal trafficking compared to neurons, which could be protective due to
+
+429
+
+increased astrocytic endocytosis of extracellular pathologic aggregating proteins that
+
+430
+
+may otherwise seed pathology in neurons21,22,39. Astrocytes differentiated from human
+
+431
+
+iPSCs were found to more rapidly internalize extracellular -synuclein compared to
+
+432
+
+iPSC-dopaminergic neurons. When astrocytes were co-cultured with neurons with
+
+433
+
+biallelic mutations in ATP13A2, which cause a recessive form of Parkinsonism, there
+
+434
+
+was reduced neuronal -synuclein, although phosphorylated and aggregated forms of
+
+435
+
+-synuclein were not examined in this study22. In Drosophila, GBA1 was shown to be
+
+436
+
+necessary for astrocyte-mediated neuronal pruning during sleep40. These differential
+
+437
+
+cell type-specific effects in GBA1 function may have a protective role as well, as
+
+438
+
+expression of wildtype dGBA1b in Drosophila astrocytes was sufficient to prevent
+
+439
+
+protein aggregation in neurons in GBA1-deficient flies40. Our findings further support a
+
+440
+
+cell type-specific role for GBA1, in which neurons have increased susceptibility to
+
+441
+
+endolysosomal trafficking dysfunction and development of -synucleinopathy.
+
+442
+
+While most investigations have used models heterozygous for the more common
+
+443
+
+pathogenic GBA1 variants N370S or L444P, this study examines iPSC-derived neurons
+
+444
+
+and astrocytes carrying the GBA1 IVS2+1 variant as it is considered to be a variant
+
+445
+
+leading to complete absence of GCase protein, rather than a missense variant that may
+
+446
+
+cause additional cellular effects through protein misfolding and ER stress. The effects
+
+447
+
+that we observed in our GBA1IVS/+ neurons trended towards increased severity in
+
+448
+
+homozygous GBA1IVS/IVS neurons and GBA1+/+ neurons treated with CBE, supporting
+
+449
+
+reduced GCase function rather than a gain of function etiology for the observed
+
+450
+
+alterations in endolysosomal trafficking and -synuclein pathology. However, it will be
+
+451
+
+interesting to see if iPSC-derived cells carrying other GBA1 variants such as N370S and
+
+452
+
+L444P recapitulate our cell-type specific findings.
+
+453
+
+RNA-seq analysis of our GBA1-deficient neurons and astrocytes revealed
+
+454
+
+dramatically different gene expression signatures, supporting our findings that GBA1
+
+455
+
+deficiency has cell type-specific effects on divergent cellular pathways. GBA1-deficient
+
+456
+
+neurons were found to have upregulation of genes involved in exocytic, synaptic, and
+
+457
+
+mitochondrial membranes and down-regulation of inflammatory genes. In contrast,
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+458
+
+GBA1-deficient astrocytes resulted in downregulation of genes involved in transcription
+
+459
+
+and upregulation of extracellular matrix genes, suggestive of astrocyte reactivity leading
+
+460
+
+to gliosis. Profiling of GBA1-deficient astrocytes based on markers for astrocyte
+
+461
+
+subpopulations revealed the upregulation of genes consistent with A1 reactive
+
+462
+
+astrocytes32. Neurotoxic A1 astrocytes are implicated in PD pathogenesis through
+
+463
+
+microglial activation, leading to dopaminergic cell death41. GBA1 deficiency has been
+
+464
+
+found to reduce inflammatory response in primary astrocytes from GBA1 D409V knock
+
+465
+
+in mice42, and interestingly, these astrocytes did not have impaired degradation of -
+
+466
+
+synuclein monomers or fibrils. In vitro studies examining the inflammatory response of
+
+467
+
+our GBA1 IVS2+1 mutant astrocytes and co-culturing with wildtype versus GBA1-
+
+468
+
+deficient neurons will elucidate the role of GBA1 deficient astrocytes in PD
+
+469
+
+pathogenesis. However, our transcriptomic analysis suggests that GBA1 deficiency may
+
+470
+
+independently promote the transition of astrocytes into the pathogenic A1 state,
+
+471
+
+contributing to pathogenesis independently of endolysosomal trafficking defects and -
+
+472
+
+synuclein aggregation.
+
+473
+
+Glucocerebrosidase is an important enzyme for ceramide and glucosphingosine
+
+474
+
+metabolism, and several studies have underscored the influence of lipid metabolism on
+
+475
+
+neurodegeneration. Ceramidase inhibition with carmofur, resulting in increased
+
+476
+
+ceramide level, was found to reverse -synuclein aggregation in GBA1-deficient
+
+477
+
+HEK293T cells43. Given that astrocytes are the main cell type in the central nervous
+
+478
+
+system responsible for lipid metabolism and efflux of lipids to neurons 18, we anticipated
+
+479
+
+that GBA1 deficiency would have a significant impact on astrocyte lipid metabolism.
+
+480
+
+Interestingly, there was significant upregulation of genes involved in lipid metabolism
+
+481
+
+pathways, including cholesterol efflux, fatty acid metabolism, inflammatory lipid
+
+482
+
+signaling, and membrane remodeling (Fig 6,8). Alterations in lipid metabolism in both
+
+483
+
+neurons and glia have been implicated in PD, neurodegeneration, and aging44-46. Our
+
+484
+
+findings support differential lipid metabolism alterations due to GBA1 deficiency in
+
+485
+
+neurons and astrocytes, and further characterization of lipid profiles will elucidate how
+
+486
+
+alterations in each cell type influences neurodegeneration.
+
+487
+
+Our model of PD-GBA1 deficiency using iPSC differentiated neurons and astrocytes
+
+488
+
+reveals the cell-specific effects and potential neuroprotective roles for astrocyte specific
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+489
+
+GBA1. Importantly, this study underscores the role that glial cells have in PD and how
+
+490
+
+known risk factors like GBA1 may impair glial function independently of -synuclein
+
+491
+
+aggregation, greatly contributing to the progression of neurodegeneration. Although
+
+492
+
+GBA1 deficiency in astrocytes did not result in endolysosomal trafficking defects and -
+
+493
+
+synucleinopathy as in GBA1-deficient neurons, transcriptomic profiling suggests GBA1-
+
+494
+
+deficiency causes pathogenic reactive astrocyte changes and extracellular matrix
+
+495
+
+changes. These extracellular matrix changes may represent gliosis28. Our findings lay a
+
+496
+
+strong foundation to investigate further mechanisms that underlie GBA1-deficient
+
+497
+
+pathology and could reveal novel therapeutic targets for slowing progression of
+
+498
+
+neurodegeneration in a broader population of -synucleinopathy patients.
+
+499
+500
+
+Conclusion
+
+501
+
+In conclusion, our study examined endolysosomal trafficking in human iPSCs
+
+502
+
+carrying the GBA1 IVS2+1 null variant differentiated into dopaminergic neurons and
+
+503
+
+astrocytes. In this model, we demonstrated cell-type specific enlargement of the early
+
+504
+
+endosome, lysosome, and recycling endosome compartment in GBA1-deficient neurons
+
+505
+
+but not astrocytes. GBA1-deficient neurons but not astrocytes were found to have -
+
+506
+
+synucleinopathy. RNA sequencing reveals cell type-specific effects of GBA1 deficiency,
+
+507
+
+with significantly different cellular pathways affected in GBA1-deficient neurons and
+
+508
+
+GBA1-deficient astrocytes. Our model provides insight into the cell-type specific role of
+
+509
+
+GBA1-deficiency and will be valuable for further defining the individual contributions of
+
+510
+
+cell types to -synucleinopathy and neurodegeneration.
+
+511
+512
+
+Materials & Methods
+
+513
+
+IPSC Generation
+
+514
+
+Fibroblasts were obtained from a deidentified individual diagnosed with PD and
+
+515
+
+heterozygous for GBA1IVS2+1 ascertained by the Parkinson’s Genetic Research Study
+
+516
+
+(PI Zabetian, VA Puget Sound IRB Protocol #1587534) and were reprogrammed to
+
+517
+
+generate iPSCs by the University of Washington Institute for Stem Cell and
+
+518
+
+Regenerative Medicine Ellison Stem Cell Core. All clones were verified by sequence
+
+519
+
+analysis using the following primers:
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+520
+
+PCR Primers:
+
+521
+
+F: GTTGTCACCCATACATGCCC
+
+522
+
+R: CTCTCATGCATTCCAGAGGC
+
+523
+
+Product length: 7,050
+
+524
+
+Sequencing Primers:
+
+525
+
+F: GTGGGCCTTGTCCTAATGAA
+
+526
+
+R: CAAAGGACTATGAGGCAGAA
+
+527
+
+All iPSC clones were screened for mycoplasma (Lonza #LT07-118) and chromosomal
+
+528
+
+abnormalities by karyotyping by Diagnostic Cytogenetics Incorporated, Seattle, WA, or
+
+529
+
+whole genome sequencing by Karyostat+ ThermoFisher (S Fig 2).
+
+530
+531
+
+Generation of isogenic control GBA1IVS/IVS Rev, GBA1IVS/IVS and GBA1IVS/+ A4 clones
+
+532
+
+One million iPSCs derived from patients harboring the IVS2+1 G>A mutation at the
+
+533
+
+GBA1 locus were electroporated with Cas9 (0.3-0.6 µM, Sigma) and gRNA
+
+534
+
+(GGCATCAGATGAGTGAGTCA)(1.5-3 µM, Synthego) as RNP complex along with
+
+535
+
+ssDNA donor:
+
+536
+
+AGTAGGGTAAGCATCATGGCTGGCAGCCTCACAGGATTGCTTCTACTTCAGGCAGT
+
+537
+
+GTCGTGGGCATCAGgtgagtgagtcaaggcagtggggaggtagcacagagcctcccttctgcctcatagtccttt
+
+538
+
+ggtagccttc (2uM, IDT) using Amaxa nucleofector (Human Stem Cell kit 2) in presence of
+
+539
+
+Rho-associated, coiled-coil containing protein kinase (ROCK) inhibitor. Individual
+
+540
+
+colonies were hand-picked and plated into 96 well plates. DNA was extracted using
+
+541
+
+Quick Extract DNA extraction solution (Epicentre#QE09050) and nested PCR was
+
+542
+
+performed with the following primers:
+
+543
+
+F1: GGCTTGCTTTTCAGTCATTCCTC
+
+544
+
+R1: ACATGGAGAATGGACACATCTGCTA
+
+545
+
+Product length: 635
+
+546
+
+The PCR product was purified using EXO-SAP enzyme (ThermoFisher) and sent for
+
+547
+
+Sanger sequencing analysis (through Genewiz). The integrity of the GBA1 pseudogene,
+
+548
+
+GBAP1 was also assessed by nested PCR and Sanger sequencing using the following
+
+549
+
+primers:
+
+550
+
+F1: CTTCGGGTAGGGTAAGCATCAT
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+551
+
+R1: CTGACAAGGATGTGGAGAACGGA
+
+552
+
+Product length: 283
+
+553
+
+See Supplemental Figure 1 for further details.
+
+554
+555
+
+Differentiation of iPSCs into NPCs
+
+556
+
+Differentiation of iPSC into neural progenitor cells (NPCs) was performed using
+
+557
+
+STEMCELL Technologies reagents and procedures specified in the Technical Manual of
+
+558
+
+the STEMdiffTM SMADi Neural Induction Kit (Cat No. 08581). Briefly, a single cell
+
+559
+
+suspension of iPSCs was seeded onto Matrigel-coated plates at a density of 2.5-3×105
+
+560
+
+cells/cm2 in STEMdiffTM Neural Induction Medium +SMADi. Cells were passaged every
+
+561
+
+6-9 days and replated at a density of 1.5-2×105 cells/cm2. After three weeks in
+
+562
+
+STEMdiffTM Neural Induction Medium + SMADi, a small portion of the cells was fixed
+
+563
+
+and stained with the following antibodies to evaluate presence of NPC markers: mouse
+
+564
+
+anti-Nestin (Santa Cruz # sc-23927, 1:50), rabbit anti-Sox1 (Cell Signaling #4194S,
+
+565
+
+1:100), and anti-Pax6 (Santa Cruz # sc-81649, 1:50). Verified NPCs were frozen down
+
+566
+
+or expanded for neuronal or astrocyte differentiation.
+
+567
+568
+
+Midbrain Dopaminergic Neuron Differentiation
+
+569
+
+NPCs passaged less than 5 times were differentiated into dopaminergic neurons
+
+570
+
+using the reagents and procedures specified in the Technical Manual of the STEMdiff TM
+
+571
+
+Midbrain Neuron Differentiation Kit (STEMCELL Technologies Cat No.100-0038). NPCs
+
+572
+
+were seeded onto Matrigel-coated 100mm dishes at a density of 2-2.5×105 cells/cm2
+
+573
+
+and grown in Midbrain Neuron Differentiation Medium + Supplement for 1 week or until
+
+574
+
+neural rosettes were formed, then passaged and replated to a density of 6-8×104
+
+575
+
+cells/cm2 and grown in STEMdiffTM Midbrain Neuron Maturation Medium + Supplement
+
+576
+
+for 2 weeks.
+
+577
+
+Astrocyte Differentiation
+
+578
+
+NPCs were differentiated into astrocytes using the reagents and procedures
+
+579
+
+specified in the Technical Manual of the STEMdiffTM Astrocyte Differentiation Kit
+
+580
+
+(STEMCELL Technologies Cat No. 100-0013). NPCs were seeded onto Matrigel-coated
+
+581
+
+100mm dishes at a density of 1.5-2×105 cells/cm2 and grown in STEMdiffTM Astrocyte
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+582
+
+Differentiation Medium + Supplement for 3 weeks with passaging every 7-10 days.
+
+583
+
+Astrocyte progenitor cells (APCs) were then seeded onto Matrigel-coated 100mm
+
+584
+
+dishes at a density of 1.5-2×105 cells/cm2 and grown in STEMdiffTM Astrocyte Maturation
+
+585
+
+Medium + Supplements A&B for 2 weeks with passaging every 7-10 days. After 2 weeks
+
+586
+
+in Astrocyte Maturation Medium, a small portion of cells was fixed and stained to
+
+587
+
+evaluate the presence of mature astrocyte markers: mouse anti-glial fibrillary acidic
+
+588
+
+protein (GFAP) (Sigma-Aldrich G3893, 1:400), mouse anti-Vimentin (Invitrogen #MA5-
+
+589
+
+11883, 1:500), rabbit anti-Vimentin (Cell Signaling Technology 5741S, 1:100) , rabbit
+
+590
+
+anti-S100 (Proteintech 15146-1-AP, 1:100), and rabbit anti-Aquaporin 4
+
+591
+
+(AQP4Invitrogen #PA5-85767, 1:100).
+
+592
+593
+
+GCase Enzyme Activity Assay
+
+594
+
+iPSC-derived neural progenitor cell (NPC) pellets were lysed with lysis buffer
+
+595
+
+consisting of 150 mM citrate phosphate buffer, 0.25% taurocholic acid sodium salt
+
+596
+
+hydrate (Thermo Scientific A18346.03), and 0.25% Triton X-100 (Thermo Scientific
+
+597
+
+A16046-AE) for 30 minutes at 4°C. Lysates were homogenized via sonication and spun
+
+598
+
+down at 14000 rpm at 4°C for 15 minutes; supernatant was then collected. The lysates
+
+599
+
+were added in triplicate to a 96-well plate at 2.5, 5, and, 10 µL with 40 µL assay buffer,
+
+600
+
+consisting of lysis buffer plus 3% BSA (Proliant Biologics 9048-46-8), and 4 mM 4-
+
+601
+
+methylumbelliferyl-β-D-glucopyranoside (Cayman 20948). The plate was then incubated
+
+602
+
+at 37°C, protected from light. After 1 hour, the assay was halted with 100 µL of 0.2 M
+
+603
+
+glycine (Fisher Scientific G46-500). Absorbance at 450 nm was measured with a
+
+604
+
+SpectraMax iD3 plate reader (Molecular Devices, San Jose, CA).
+
+605
+606
+
+CBE inhibition of neurons and astrocytes
+
+607
+
+GBA1+/+ clone #2 cells were treated with conduritol B epoxide (CBE), an inhibitor of
+
+608
+
+GCase activity. After reaching day 0 of maturation, a portion of healthy control neurons
+
+609
+
+and astrocytes was treated with 100mM CBE (Enzo Life Sciences BML-S104-0025) that
+
+610
+
+was replenished every 2-3 days with media changes at 37°C. CBE inhibition was
+
+611
+
+maintained until D10, whereupon the cells were fixed and/or pelleted.
+
+612
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+613
+614
+
+Immunocytochemistry
+iPSC-derived neurons and astrocytes grown on coverslips were fixed in 4%
+
+615
+
+paraformaldehyde and were blocked and permeabilized by incubating in blocking buffer
+
+616
+
+(2.5% BSA, 0.1% Triton X-100 in PBS) for 30 minutes. The fixed cells were incubated
+
+617
+
+overnight at 4°C with primary antibodies dissolved in blocking buffer and were incubated
+
+618
+
+at room temperature for 2 hours with secondary antibodies dissolved in blocking buffer.
+
+619
+
+The following primary antibodies were used: mouse anti--synuclein aggregate (Abcam
+
+620
+
+ab209538, 1:250), mouse anti-EEA1 (BD Biosciences #610456, 1:500), rabbit anti-
+
+621
+
+LAMP1 (Cell Signaling #9091S, 1:100), rabbit anti-Rab11 (Abcam #ab3612, 1:1000),
+
+622
+
+mouse anti-MAP2 (ThermoFisher #131500, 1:250) , rabbit anti-MAP2 (Cell Signaling
+
+623
+
+Technology #4542S, 1:500), mouse anti-tyrosine hydroxylase (TH) (Santa Cruz #sc-
+
+624
+
+25269), mouse anti-Vimentin (Invitrogen #MA5-11883, 1:500), and rabbit anti-Vimentin
+
+625
+
+(Cell Signaling Technology 5741S, 1:100).
+
+626
+
+The following secondary antibodies were used: AlexaFluor 488 goat anti-mouse
+
+627
+
+(ThermoFisher A1101, 1:500), AlexaFluor 488 goat anti-rabbit (ThermoFisher A11008,
+
+628
+
+1:500), AlexaFluor 594 goat anti-mouse (ThermoFisher A32742, 1:500), AlexaFluor 594
+
+629
+
+goat anti-rabbit (ThermoFisher A32740, 1:500), and DAPI (Santa Cruz Biotechnology
+
+630
+
+sc-3598, 1:1000).
+
+631
+632
+
+Confocal Microscopy and Imaris Volume Analysis
+
+633
+
+Coverslips of fixed and stained neurons or astrocytes were mounted on glass slides
+
+634
+
+with ProLong GoldTM Antifade Mountant (ThermoFisher P10144). Confocal images were
+
+635
+
+obtained using a Nikon A1R Confocal imaging system with Nikon Elements software.
+
+636
+
+For each marker and genotype pair, at least 20 images were obtained at 60x
+
+637
+
+magnification with an oil-immersion lens using Nikon immersion oil type F. The Nyquist
+
+638
+
+window was 1 µm and the Z-stack was 2 µm in total centered on the nucleus with 0.1
+
+639
+
+µm steps. Confocal microscopy images were converted to .ims files and subsequently
+
+640
+
+deconvolved using uniform parameters across all images. Using IMARIS 9.9.0, a 3D
+
+641
+
+imaging and analysis software, three fluorescence signals, TRITC, FITC, and DAPI,
+
+642
+
+representing puncta, cell bodies, and nuclei, respectively, were reconstructed into 3D
+
+643
+
+surfaces, using similar methods from prior published studies47,48. The DAPI and FITC
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+644
+
+surfaces were merged to generate a combined representation of the cell. This merged
+
+645
+
+surface, representing the cell of interest, was then segmented to isolate a single, intact
+
+646
+
+cell body. TRITC surfaces were filtered based on their overlap with the cell of interest.
+
+647
+
+Volumetric ratio data, puncta size, and mean intensity values of TRITC surfaces were
+
+648
+
+collected and analyzed using GraphPad Prism 10. At least 15 cells were analyzed per
+
+649
+
+replicate, three different clones per genotype. Resulting data was analyzed by one way
+
+650
+
+ANOVA for normally distributed data and Wilcoxon rank sum test with Bonferroni
+
+651
+
+correction for multiple comparisons or Student’s t-test if comparing only two groups.
+
+652
+
+Effect size based on Cohen’s d as well as p value were determined using GraphPad
+
+653
+
+Prism 10.
+
+654
+655
+
+Western Blotting
+
+656
+
+For soluble proteins, lysates of iPSC-neurons or astrocytes were obtained using
+
+657
+
+RIPA buffer with Halt protease and phosphatase inhibitor cocktail (ThermoScientific
+
+658
+
+#78441). For insoluble proteins such as high molecular weight α-synuclein aggregates
+
+659
+
+and phospho-Serine129 α-synuclein, cells were extracted in 1% Triton X-100 lysis
+
+660
+
+buffer (150 mM NaCl, 50 mM Tris-HCl, 1 mM EDTA). Cells were sonicated 3 times at
+
+661
+
+60% amplitude for 10 seconds on and 5 seconds off, then centrifuged at 4°C 15,000xg
+
+662
+
+for 20 minutes. The supernatant was collected for Triton X-100 lysis soluble proteins
+
+663
+
+and the remaining pellet was resuspended in 2% SDS in DI H2O with protease inhibitor
+
+664
+
+cocktail (Sigma-Aldrich p8340-5ML) for Triton X-100 lysis insoluble proteins. Cells were
+
+665
+
+sonicated 3 times at 60% amplitude for 10 seconds on and 5 seconds off, then
+
+666
+
+centrifuged at 4°C 15,600xg for 10 minutes, then boiled for 10 minutes. Approximately
+
+667
+
+20 ug of protein was loaded from each sample and run on 4-20% Tris-glycine gels, then
+
+668
+
+transferred to PVDF membrane using an iBlot system. Membranes were probed for the
+
+669
+
+following primary antibodies: rabbit anti-glucocerebrosidase (Millipore Sigma #G4171,
+
+670
+
+1:250), mouse anti-EEA1 (BD Biosciences #610456, 1:2500), rabbit anti-LAMP1 (Cell
+
+671
+
+Signaling #9091S, 1:1000), rabbit anti-Rab11 (Abcam #ab3612, 1:2000), mouse anti-
+
+672
+
+actin (EMD Millipore MAB1501, 1:8000), and secondary goat anti-mouse HRP (Bio-Rad
+
+673
+
+1706516, 1:1000-7500) or goat anti-rabbit HRP (Bio-Rad #1721019, 1:2000-10000) and
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+674
+
+visualized with Pico ECL (ThermoFisher #34580) or Femto ECL (ThermoFisher
+
+675
+
+#34096).
+
+676
+
+For detecting -synuclein high molecular weight oligomers, Triton X-100 lysis
+
+677
+
+insoluble fractions were run on a 4-20% Tris-Glycine gel and transferred onto PVDF
+
+678
+
+membrane using the iBlot system. The membrane was blocked in 5% non-fat milk in
+
+679
+
+PBST for 30 minutes, then fixed with 0.4% paraformaldehyde for 30 minutes.
+
+680
+
+Membranes were incubated with primary mouse anti--synuclein antibody (BD
+
+681
+
+Biosciences #610787, 1:250) overnight at 4°C in blocking buffer, respectively, then
+
+682
+
+incubated with goat anti-mouse HRP (BioRad #170-6516, 1:1000) and visualized with
+
+683
+
+Pico ECL (ThermoFisher #34580).
+
+684
+
+For detecting phospho-Serine129 -synuclein, Triton X-100 lysis insoluble fractions
+
+685
+
+were run on a 4-20% Tris-Glycine gel and transferred onto PVDF membrane using the
+
+686
+
+iBlot system. The membrane was blocked with 0.4% paraformaldehyde in TBS for 30
+
+687
+
+minutes, then blocked in blocking buffer 5% BSA (Sigma-Aldrich A9418) in TBST for 30
+
+688
+
+minutes. Membranes were incubated with primary rabbit anti phospho-Serine129 -
+
+689
+
+synuclein antibody (abcam ab51253, 1:1000) overnight at 4°C in blocking buffer, then
+
+690
+
+incubated with goat anti-rabbit HRP (BioRad #1721019, 1:2000) and visualized with
+
+691
+
+Pico ECL (ThermoFisher #34580).
+
+692
+
+At least three independent experiments were performed with three biological
+
+693
+
+replicates of each genotype and antibody. Signal was normalized to actin within each
+
+694
+
+Western blot for loading control. Normalized western blot data were log-transformed
+
+695
+
+when necessary to stabilize variance before means were compared using one-way
+
+696
+
+ANOVA.
+
+697
+698
+
+RNA Sequencing
+
+699
+
+Three replicates of the following iPSC clones differentiated into astrocytes and
+
+700
+
+midbrain dopaminergic neurons were submitted to Azenta Life Sciences for RNA
+
+701
+
+sequencing: GBA1IVS/+ clones #1,2,6, control GBA1+/+ clones #1,2,3, GBA1+/+ Rev
+
+702
+
+isogenic control clone, and a matched control GBA1IVS/+ A4 and homozygous null
+
+703
+
+GBA1IVS/IVS. Cell pellets of 1x106 were submitted to Azenta for RNA extraction, cDNA
+
+704
+
+libraries were preparation using polyA capture, and sequencing was performed on an
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+705
+
+Illumina NovaSeq X Plus using 2x150bp paired-end reads at a final read depth of ~20
+
+706
+
+million reads per sample. Raw data was processed by Azenta’s standard bioinformatics
+
+707
+
+analysis workflow. Briefly, reads were checked for quality control and adapter
+
+708
+
+sequences were trimmed using Trimmomatic v.0.36. Sequence data was then aligned to
+
+709
+
+the GRCh38 Homo Sapiens reference genome using STAR aligner v.2.5.2b. The
+
+710
+
+resulting BAMs were used to generate hit counts using Subread v.1.5.2, with only
+
+711
+
+exonic regions included for downstream RNA-seq analyses. The RNAseq data analyzed
+
+712
+
+in this publication have been deposited in NCBI’s Gene Expression Omnibus 49 and are
+
+713
+
+accessible through GEO Series accession number GSE315738
+
+714
+
+(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315738).
+
+715
+
+Differential gene expression using DESeq2 was used to compare GBA1+/+ neurons
+
+716
+
+with GBA1+/+ astrocytes, GBA1+/+ neurons with GBA1IVS/+ neurons, GBA1+/+ neurons
+
+717
+
+with GBA1IVS/IVS neurons, GBA1+/+ astrocytes with GBA1IVS/+ astrocytes, GBA1+/+
+
+718
+
+astrocytes with GBA1IVS/IVS astrocytes, and GBA1IVS/+ neurons with GBA1IVS/+
+
+719
+
+astrocytes. GBA1IVS/+ neurons were also compared to GBA1IVS/+ A4 neurons, and
+
+720
+
+GBA1IVS/+ astrocytes were compared to GBA1IVS/+ A4 astrocytes. GBA1+/+ neurons or
+
+721
+
+astrocytes were compared to isogenic GBA1+/+ Rev neurons or astrocytes to determine
+
+722
+
+whether the isogenic controls were significantly different from the unrelated age- and
+
+723
+
+sex-matched healthy control cell line. p-values and log2 fold changes were calculated
+
+724
+
+using the Wald test, with cutoffs of adjusted p-value < 0.05 and absolute log2 fold
+
+725
+
+change >0.5. Significant genes were identified as differentially expressed relative to
+
+726
+
+their respective controls. Genes identified as DEGs using these cutoffs were compared
+
+727
+
+for GBA1IVS/+ and GBA1IVS/IVS for each cell type (astrocytes and neurons); those
+
+728
+
+meeting the threshold for DEGs in both conditions and expressed in the same direction
+
+729
+
+(upregulated or downregulated) were considered as consensus DEGs. Venn diagrams
+
+730
+
+were created using the R package VennDiagram 1.7.3. Heatmaps of gene expression
+
+731
+
+data were generated using the package pheatmap 1.0.13 using log2 fold changes
+
+732
+
+calculated by DESeq2.
+
+733
+
+For gene set enrichment analysis (GSEA), we identified genes and pathways
+
+734
+
+consistently dysregulated across GBA1 mutant conditions by combining differential
+
+735
+
+expression results from GBA1IVS/+ and GBA1IVS/IVS cells using Fisher's combined
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+736
+
+statistic. Differential expression tables from DESeq2 for GBA1IVS/+ and GBA1IVS/IVS cells
+
+737
+
+were compared, and any gene absent from either dataset was dropped for these
+
+738
+
+analyses. For genes present in both comparisons, we used the Fisher statistic [χ² =
+
+739
+
+−2(ln p₁ + ln p₂)] to calculate a p-value for each gene evaluated against a chi-squared
+
+740
+
+distribution with four degrees of freedom. Genes expressed in a concordant direction
+
+741
+
+(same sign of log₂ fold change in both conditions) were assigned a signed Z-score
+
+742
+
+derived from the combined p-value. Genes with discordant effects were assigned Z=0.
+
+743
+
+GSEA was performed in R using the package fGSEA v.1.34.2 using Z-scores for gene
+
+744
+
+ranking. Enrichment was tested against the MSigDB Reactome collection (v2025.1),
+
+745
+
+significance of enrichment was determined at padj <0.05, and the top 10 most enriched
+
+746
+
+Reactome pathways by absolute normalized enrichment score were plotted using
+
+747
+
+ggplot2 v4.0.1.
+
+748
+
+Additional supporting raw data for this work, including all Western blot raw data and
+
+749
+
+quantifications, quantification of ICC data using Imaris, and tables of DEGs from
+
+750
+
+RNAseq analysis are available on Mendeley Data, V1, doi:
+
+751
+
+10.17632/fgswr9ctcr.1Mendeley Data DOI:10.17632/fgswr9ctcr.1. Park, Anna; Fish,
+
+752
+
+Sarah; Samstag, Colby; Kim, Minsuh; Weiss, Jeremy; Yu, Selina; Callier, Malia; Chiu,
+
+753
+
+Ella; Weiss, Joshua; Hampe, Christiane; Estes, Raja; Lin, Bernice; Khera, Arnav;
+
+754
+
+Yearout, Dora; Pallanck, Leo; Zabetian, Cyrus; Davis, Marie (2026), “Dataset for 'GBA1
+
+755
+
+deficiency differentially affects endolysosomal trafficking in neurons versus astrocytes.'”
+
+756
+757
+
+Main Figure Legends
+
+758
+
+Figure 1. Differentiation of GBA1-deficient iPSCs into midbrain dopaminergic neurons
+
+759
+
+and astrocytes.
+
+760
+
+(A) Diagram of iPSC cell line generation and differentiation protocol into midbrain dopaminergic
+
+761
+
+neurons and astrocytes, with representative images of immunocytochemistry of GBA1+/+ iPSC-
+
+762
+
+neurons stained with anti-TH (green) and DAPI and GBA1+/+ iPSC-astrocytes stained with anti-
+
+763
+
+S100β (red) and DAPI (B) Quantification of glucocerebrosidase (GCase) enzyme activity by
+
+764
+
+relative fluorescence of 4-methylumbelliferyl-β-D-glucopyranoside (4-MUG) in indicated
+
+765
+
+genotypes. GCase activity of all cell lines treated with CBE was subtracted to eliminate
+
+766
+
+background activity. (one-way ANOVA F (4, 19) =9.092, p=0.0003). (C) Representative Western
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+767
+
+blot with anti-GBA1 protein in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and
+
+768
+
+GBA1IVS/IVS iPSC-neurons. (D) Quantification of GBA1 protein in neurons from 3 independent
+
+769
+
+replicates in indicated genotypes, normalized to Actin in control (one-way ANOVA F (3,8)
+
+770
+
+=108.6, p<0.0001). (E) Heatmap of differentially expressed midbrain dopaminergic neuron- and
+
+771
+
+astrocyte-specific genes in GBA1+/+ neurons versus GBA1+/+ astrocytes sorted by z-score.
+
+772
+
+Statistical significance determined by one-way ANOVA (ns = p ≥ 0.05, * = p < 0.05, ** = p <
+
+773
+
+0.01, *** = p < 0.001, **** = p < 0.0001). Data are presented as mean ± SEM.
+
+774
+
+Figure 2. Early endosomes are altered in GBA1-deficient neurons, but not in GBA1-
+
+775
+
+deficient astrocytes
+
+776
+
+(A) Representative images of immunocytochemistry of anti-EEA1 (red), anti-MAP2 (green) and
+
+777
+
+DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS neurons. (B)
+
+778
+
+Quantification of anti-EEA1 puncta volume per neuron across indicated genotypes (one-way
+
+779
+
+ANOVA: F(3, 29925) = 104.0, p<0.0001). One-way ANOVA did not detect statistically significant
+
+780
+
+differences between groups. Cohen’s d effect sizes were calculated, with only medium and large
+
+781
+
+effects displayed. (C) Ratio of anti-EEA1 puncta volume to total anti-MAP2 neuronal cell volume
+
+782
+
+in indicated genotypes (F(3, 64) = 34.35, p<0.0001). (D) Western blot of anti-EEA1 protein
+
+783
+
+levels in neurons in indicated genotypes, with quantification normalized to Actin in control. (E)
+
+784
+
+Representative immunocytochemistry images of anti-EEA1 (red), anti-vimentin (green) and
+
+785
+
+DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS astrocytes.
+
+786
+
+(F) Quantification of anti-EEA1 puncta volume per astrocyte in indicated genotypes (F(3, 35549)
+
+787
+
+= 13.42, p<0.0001). (G) Ratio of anti-EEA1 puncta volume to total anti-Vimentin astrocyte cell
+
+788
+
+volume in indicated genotypes (F(3, 65) = 2.761, p=0.0491). (H) Western blot of anti-EEA1
+
+789
+
+protein levels in astrocytes in indicated genotypes, with quantification normalized to Actin in
+
+790
+
+control. Statistical significance was determined by one-way ANOVA (ns = p ≥ 0.05, * = p < 0.05,
+
+791
+
+** = p < 0.01, *** = p < 0.001, **** = p < 0.0001). For quantification of immunocytochemistry,
+
+792
+
+statistical significance was determined by p < 0.05 and Cohen’s d of medium and large effect.
+
+793
+
+Data are presented as mean ± SEM.
+
+794
+
+Figure 3. Lysosomes are significantly altered in GBA1-deficient neurons, but not in
+
+795
+
+GBA1-deficient astrocytes
+
+796
+
+(A) Representative images of immunocytochemistry of anti-LAMP1 (red), anti-MAP2 (green)
+
+797
+
+and DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS
+
+798
+
+neurons. (B) Quantification of anti-LAMP1 puncta volume per neuron across genotypes (one-
+
+799
+
+way ANOVA: F(3, 68096) = 4.555, p=0.0034). (C) Ratio of anti-LAMP1 puncta volume to total
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+800
+
+anti-MAP2 neuronal cell volume across genotypes (F(3, 55) = 13.95, p<0.0001). (D) Western
+
+801
+
+blot analysis of LAMP1 protein levels in neurons in indicated genotypes, with quantification
+
+802
+
+normalized to Actin in control. (E) Representative images of immunocytochemistry of anti-
+
+803
+
+LAMP1 (red), anti-Vimentin (green) and DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B
+
+804
+
+epoxide (CBE), and GBA1IVS/IVS astrocytes. (F) Quantification of anti-LAMP1 puncta volume per
+
+805
+
+astrocyte across genotypes (F(3, 61687) = 2.274, p=0.0778). (G) Ratio of anti-LAMP1 puncta
+
+806
+
+volume to total anti-Vimentin astrocyte cell volume in indicated genotypes (F(3, 72) = 13.48,
+
+807
+
+p<0.0001). (H) Western blot analysis of LAMP1 protein level in astrocytes in indicated
+
+808
+
+genotypes, with quantification normalized to Actin in control. Statistical significance was
+
+809
+
+determined by one-way ANOVA (ns = p ≥ 0.05, * = p < 0.05, ** = p < 0.01, *** = p < 0.001, **** =
+
+810
+
+p < 0.0001). For quantification of immunocytochemistry, statistical significance was determined
+
+811
+
+by p < 0.05 and Cohen’s d of medium and large effect. Data are presented as mean ± SEM.
+
+812
+
+Figure 4. Recycling endosomes are significantly altered in GBA1-deficient neurons, but
+
+813
+
+not in GBA1-deficient astrocytes
+
+814
+
+(A) Representative images of immunocytochemistry of anti-Rab11 (red), anti-MAP2 (green), and
+
+815
+
+DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS neurons. (B)
+
+816
+
+Quantification of Rab11 puncta volume per neuron in indicated genotypes (one-way ANOVA:
+
+817
+
+F(3, 59810) = 22.77, p<0.0001). (C) Ratio of Rab11 puncta volume to total anti-MAP2 neuronal
+
+818
+
+cell volume in indicated genotypes (F(3, 71) = 45.67, p<0.0001). (D) Western blot analysis of
+
+819
+
+Rab11 protein levels in neurons across genotypes, with quantification normalized to Actin in
+
+820
+
+control. (E) Representative images of immunocytochemistry of anti-Rab11 (red), anti-Vimentin
+
+821
+
+(green) and DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS
+
+822
+
+astrocytes. (F) Quantification of Rab11 puncta volume per astrocyte in indicated genotypes (F(3,
+
+823
+
+233665) = 0.4953, p=0.6855). (G) Ratio of anti-Rab11 puncta volume to total anti-Vimentin
+
+824
+
+astrocyte cell volume in indicated genotypes (F(3, 59) = 2.529, p=0.0659). (H) Western blot
+
+825
+
+analysis of Rab11 protein levels in astrocytes across genotypes, with quantification normalized
+
+826
+
+to Actin in control. Statistical significance was determined by one-way ANOVA (ns = p ≥ 0.05, * =
+
+827
+
+p < 0.05, ** = p < 0.01, *** = p < 0.001, **** = p < 0.0001). For quantification of
+
+828
+
+immunocytochemistry, statistical significance was determined by p < 0.05 and Cohen’s d of
+
+829
+
+medium and large effect. Data are presented as mean ± SEM.
+
+830
+
+Figure 5. α-syn and pSer129 α-syn levels are significantly altered in GBA1-deficient
+
+831
+
+neurons, but not in GBA1-deficient astrocytes
+
+832
+
+(A) Representative images of immunocytochemistry of anti-α-syn (red), anti-MAP2 (green) and
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+833
+
+DAPI in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS neurons. (B)
+
+834
+
+Quantification of immunocytochemistry of anti-α-syn total intensity per anti-MAP2 neuron in
+
+835
+
+indicated genotypes (one-way ANOVA: F(3, 55) = 9.560, p<0.0001). (C) Western blot analysis of
+
+836
+
+anti-pSer129 α-syn levels in neurons in indicated genotypes, with quantification normalized to
+
+837
+
+Actin in control. (D) Western blot analysis of α-syn high molecular weight oligomer (70-250 kD)
+
+838
+
+and α-syn monomer (15 kD) levels in neurons in indicated genotypes, with quantification
+
+839
+
+normalized to Actin in control. (E) Representative images of immunocytochemistry of anti-α-syn
+
+840
+
+in GBA1+/+, GBA1IVS/+, GBA1+/+ + conduritol B epoxide (CBE), and GBA1IVS/IVS astrocytes. (F)
+
+841
+
+Quantification of immunocytochemistry of anti-α-syn total intensity per anti-Vimentin astrocyte
+
+842
+
+volume in indicated genotypes (F(3, 70) = 220.8, p<0.0001). (G) Western blot analysis of
+
+843
+
+pSer129 α-syn levels in astrocytes in indicated genotypes, with quantification normalized to
+
+844
+
+Actin in control. (H) Western blot analysis of α-syn oligomer (70-250 kD) and α-syn monomer
+
+845
+
+(15 kD) levels in astrocytes across genotypes, with quantification normalized to Actin in control.
+
+846
+
+Statistical significance was determined by one-way ANOVA (ns = p ≥ 0.05, * = p < 0.05, ** = p <
+
+847
+
+0.01, *** = p < 0.001, **** = p < 0.0001). For quantification of immunocytochemistry, statistical
+
+848
+
+significance was determined by p < 0.05 and Cohen’s d of medium and large effect. Data are
+
+849
+
+presented as mean ± SEM.
+
+850
+
+Figure 6. Transcriptomic profiles of GBA1-deficient neurons differ significantly from
+
+851
+
+GBA1-deficient astrocytes.
+
+852
+
+(A) Heat map of all differentially expressed genes with at least log0.5 fold change in GBA1IVS/IVS
+
+853
+
+and GBA1IVS/+ neurons compared to GBA1+/+ neurons and GBA1IVS/IVS and GBA1IVS/+ astrocytes
+
+854
+
+compared to GBA1+/+ astrocytes. (B) Volcano plot of global transcriptional changes across
+
+855
+
+GBA1IVS/+ versus GBA1+/+ neurons. The log2 fold change of each gene is represented on the x-
+
+856
+
+axis, and the log10 of its adjusted p-value is on the y-axis. Genes with an adjusted p-value <
+
+857
+
+0.05 and a log2 fold change > 1 are indicated by red dots representing up-regulated genes.
+
+858
+
+Genes with an adjusted p-value less than 0.05 and a log2 fold change less than –1 are
+
+859
+
+indicated by green dots representing down-regulated genes. (C) Volcano plot of global
+
+860
+
+transcriptional changes across GBA1IVS/+ versus GBA1+/+ astrocytes. (D) Venn diagram of
+
+861
+
+consensus upregulated differentially expressed genes (DEGs) in GBA1IVS/+ and GBA1IVS/IVS
+
+862
+
+neurons compared to GBA1+/+, and consensus down-regulated DEGs in GBA1IVS/+ and
+
+863
+
+GBA1IVS/IVS astrocytes compared to GBA1+/+. (E) Venn diagram of consensus down-regulated
+
+864
+
+differentially expressed genes (DEGs) in GBA1IVS/+ and GBA1IVS/IVS neurons compared to
+
+865
+
+GBA1+/+, and consensus down-regulated DEGs in GBA1IVS/+ and GBA1IVS/IVS astrocytes
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+866
+
+compared to GBA1+/+. (F) Bar graph of DEGs share between GBA1-deficient neurons and
+
+867
+
+astrocytes and specific to each cell type. (G) Gene Set Enrichment Analysis of Reactome
+
+868
+
+pathways using differential gene expression in GBA1-deficient neurons relative to control
+
+869
+
+neurons and (H) GBA1-deficient astrocytes relative to control astrocytes. Expression changes
+
+870
+
+from both GBA1IVS/IVS and GBA1IVS/+ cells were integrated and ranked by Z-score (Fisher’s
+
+871
+
+method), with the top 10 Reactome pathways by absolute normalized enrichment score (NES)
+
+872
+
+shown. Positive values (green) represent pathways enriched in upregulated genes, negative
+
+873
+
+values (orange) represent pathways enriched in downregulated genes.
+
+874
+
+Figure 7. Transcriptomic profile of differentially expressed genes common to GBA1-
+
+875
+
+deficient neurons and astrocytes.
+
+876
+
+(A) Heat map of the 255 differentially expressed genes common to both GBA1-deficient
+
+877
+
+neurons and astrocytes. The z-score for each differentially expressed gene with at least log 0.5
+
+878
+
+fold change in GBA1IVS/+ and GBA1IVS/IVS compared to GBA1+/+ was averaged for neurons and
+
+879
+
+astrocytes. (B) Scatter plot of differentially expressed genes between GBA1-deficient neurons
+
+880
+
+and astrocytes reveals a linear relationship with Pearson r = 0.889. (C) Heatmap of concordant
+
+881
+
+differentially expressed genes in specific cellular pathways between GBA1-deficient neurons
+
+882
+
+and astrocytes. (D) Heatmap of concordant differentially expressed genes within the lysosome-
+
+883
+
+mitochondria-ER axis between GBA1-deficient neurons and astrocytes. (E) Bar graph of
+
+884
+
+concordant differentially expressed genes in GBA1-deficient neurons and astrocytes within
+
+885
+
+various cellular pathways.
+
+886
+
+Figure 8. Transcriptomic profile of differentially expressed genes specific to GBA1-
+
+887
+
+deficient neurons and astrocytes.
+
+888
+
+(A) Cell type specific heat map of mean z-scores for differentially expressed genes in GBA1-
+
+889
+
+deficient neurons and astrocytes involved in lipid, lysosomal, ER stress, interferon, and reactive
+
+890
+
+pathways. (B) Cell type-specific heat map of differentially expressed genes due to GBA1-
+
+891
+
+deficiency involved in reactivity and gliosis. (C) Cell type-specific heat map of differentially
+
+892
+
+expressed genes in GBA1-deficient neurons and astrocytes involved in lipid metabolism. (D)
+
+893
+
+Cell type-specific heat map of differentially expressed genes in GBA1-deficient neurons and
+
+894
+
+astrocytes involved in autophagy and lysosome pathways. (E) Cell type-specific heat map of
+
+895
+
+differentially expressed genes in GBA1-deficient neurons and astrocytes involved in ER stress
+
+896
+
+and unfolded protein response pathways. (F) Type I interferon response genes differentially
+
+897
+
+regulated in GBA1-deficient neurons.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+898
+
+Supplemental Figure Legends
+
+899
+
+Supplemental Figure 1: DNA sequencing of iPSC clones
+
+900
+
+A) DNA sequencing of GBA1 in GBA1IVS/+ iPSC clone #1 prior to CRISPR/Cas9 genome editing
+
+901
+
+(top), DNA sequencing of GBA1 in GBA1IVS/+ iPSC clone A4, which underwent CRISPR/Cas9
+
+902
+
+genome editing to reverse the c.115+1 G>A, also known as IVS2+1 G>A variant back to
+
+903
+
+c.115+1 G but remained unedited (middle), and DNA sequencing of GBAP1 in GBA1 in
+
+904
+
+GBA1IVS/+ iPSC clone A4 confirming no off-target genome editing of GBAP1 (bottom).
+
+905
+
+B) DNA sequencing of GBA1 in GBA1+/+ Rev iPSCs confirming CRISPR/Cas9 genome editing
+
+906
+
+reverse the c.115+1 G>A back to G (top) and DNA sequencing of GBAP1 in GBA1 in
+
+907
+
+GBA1+/+Rev iPSC clone confirming no off-target genome editing of GBAP1 (bottom).
+
+908
+
+C) DNA sequencing of GBA1 in GBA1IVS/IVS iPSCs confirming CRISPR/Cas9 genome editing
+
+909
+
+resulting in homozygous c.115+1 G>A as well as downstream intronic insertion of a T (top) and
+
+910
+
+DNA sequencing of GBAP1 in GBA1 in GBA1IVS/IVS iPSC clone confirming no off-target genome
+
+911
+
+editing of GBAP1 (bottom).
+
+912
+
+Supplemental Figure 2: Confirmation of absence of chromosomal abnormalities in iPSC clones
+
+913
+
+A) Karyotype of GBA1+/+ clone #1 iPSCs
+
+914
+
+B) Karyotype of GBA1IVS/+ clone #1 iPSCs
+
+915
+
+C) Karyotype of GBA1IVS/+ clone #2 iPSCs
+
+916
+
+D) Karyotype of GBA1IVS/+ clone #6 iPSCs
+
+917
+
+E) Karyotype of GBA1+/+ Rev clone iPSCs
+
+918
+
+F) Whole genome sequencing of GBA1IVS/+ A4 clone iPSCs
+
+919
+
+G) Whole genome sequencing of GBA1IVS/IVS clone iPSCs
+
+920
+
+H) Whole genome sequencing of GBA1IVS/+ clone #2 iPSCs
+
+921
+
+I) H) Whole genome sequencing of GBA1IVS/+ clone #3 iPSCs
+
+922
+
+Supplemental Figure 3: Transcriptomic profiles of GBA1+/+ Rev neurons compared to
+
+923
+
+GBA1+/+ neurons.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+924
+
+A) Volcano plot of global transcriptional change across GBA1+/+ Rev and GBA1+/+ #1,2,3
+
+925
+
+neurons. Each data point in the scatter plot represents a gene. The log2 fold change of each
+
+926
+
+gene is represented on the x-axis and the log10 of its adjusted p-value is on the y-axis. Genes
+
+927
+
+with an adjusted p-value less than 0.05 and a log2 fold change greater than 1 are indicated by
+
+928
+
+red dots. These represent up-regulated genes. Genes with an adjusted p-value less than 0.05
+
+929
+
+and a log2 fold change less than -1 are indicated by green dots and represent down-regulated
+
+930
+
+genes.
+
+931
+
+B) The first two principal components of principal component analysis of GBA1+/+ Rev (blue) and
+
+932
+
+GBA1+/+ #1,2,3 neurons (red), where the x-axis is the direction that explains the most variance
+
+933
+
+and the y-axis is the second most. The percentage of the total variance per direction is shown in
+
+934
+
+the axis label.
+
+935
+
+Supplemental Figure 4: Transcriptomic profiles of GBA1+/+ Rev astrocytes compared to
+
+936
+
+GBA1+/+ astrocytes.
+
+937
+
+A) Volcano plot of global transcriptional change across GBA1+/+ Rev astrocytes and GBA1+/+
+
+938
+
+#1,2,3 astrocytes, where each gene is plotted based on log2 fold change on the x-axis and the
+
+939
+
+log10 of its adjusted p-value on the y-axis. Upregulated genes with an adjusted p-value less
+
+940
+
+than 0.05 and a log2 fold change greater than 1 are indicated by red dots, and downregulated
+
+941
+
+genes with an adjusted p-value less than 0.05 and a log2 fold change less than -1 are indicated
+
+942
+
+by green dots
+
+943
+
+B) The first two principal components of principal component analysis of GBA1+/+ Rev
+
+944
+
+astrocytes (blue) compared to GBA1+/+ #1,2,3 astrocytes (red), where the x-axis is the direction
+
+945
+
+that explains the most variance and the y-axis is the second most. The percentage of the total
+
+946
+
+variance per direction is shown in the axis label.
+
+947
+
+Supplemental Figure 5: Transcriptomic profiles of GBA1IVS/+ neurons or astrocytes
+
+948
+
+compared to GBA1IVS/+ A4 neurons or astrocytes.
+
+949
+
+A) Volcano plot and PCA of GBA1IVS/+ #1,2,6 neurons compared to GBA1IVS/+ A4 neurons.
+
+950
+
+Volcano plot of global transcriptional change across GBA1IVS/+ #1,2,6 neurons compared to
+
+951
+
+GBA1IVS/+ A4 neurons, where each gene is plotted based on log2 fold change on the x-axis and
+
+952
+
+the log10 of its adjusted p-value on the y-axis. Upregulated genes with an adjusted p-value less
+
+953
+
+than 0.05 and a log2 fold change greater than 1 are indicated by red dots, and downregulated
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+954
+
+genes with an adjusted p-value less than 0.05 and a log2 fold change less than -1 are indicated
+
+955
+
+by green dots.
+
+956
+
+The first two principal components of principal component analysis of GBA1IVS/+ #1,2,6 neurons
+
+957
+
+(red) compared to GBA1IVS/+ A4 neurons (blue), where the x-axis is the direction that explains
+
+958
+
+the most variance and the y-axis is the second most. The percentage of the total variance per
+
+959
+
+direction is shown in the axis label.
+
+960
+
+B) Volcano plot and PCA of GBA1IVS/+ #1,2,6 astrocytes compared to GBA1IVS/+ A4 astrocytes.
+
+961
+
+Volcano plot of global transcriptional change across GBA1IVS/+ #1,2,6 astrocytes compared to
+
+962
+
+GBA1IVS/+ A4 astrocytes, where each gene is plotted based on log2 fold change on the x-axis
+
+963
+
+and the log10 of its adjusted p-value on the y-axis. Upregulated genes with an adjusted p-value
+
+964
+
+less than 0.05 and a log2 fold change greater than 1 are indicated by red dots, and
+
+965
+
+downregulated genes with an adjusted p-value less than 0.05 and a log2 fold change less than -
+
+966
+
+1 are indicated by green dots.
+
+967
+
+The first two principal components of principal component analysis of GBA1IVS/+ #1,2,6
+
+968
+
+astrocytes (red) compared to GBA1IVS/+ A4 astrocytes (blue), where the x-axis is the direction
+
+969
+
+that explains the most variance and the y-axis is the second most. The percentage of the total
+
+970
+
+variance per direction is shown in the axis label.
+
+971
+972
+
+FUNDING: This work was supported by the National Institutes of Health [R01
+
+973
+
+NS119897-01 (MYD), R21 NS118476-01A1 (MYD)], the Parkinson's Foundation [PF-
+
+974
+
+CRA-1891 (MYD)], 2020 John H. Tietze Stem Cell Scientist Award (MYD), and the
+
+975
+
+Department of Veterans Affairs [I01CX001702 (CPZ)].
+
+976
+977
+978
+
+ACKNOWLEDGEMENTS
+We thank Chris Cavanaugh, Jennifer Hesson and Julie Mathieu at the University of
+
+979
+
+Washington Institute for Stem Cell and Regenerative Medicine Stem Cell Core for
+
+980
+
+technical support for generating iPSCs and CRISPR/Cas9 editing of iPSCs; Jessica E.
+
+981
+
+Young and members of the Young Lab at the University of Washington for technical
+
+982
+
+support and advice; Darryl Hackney (Seattle VA R&D Imaging Core), Dale W. Hailey
+
+983
+
+(University of Washington Garvey Imaging Core) and Nathaniel Peters (UW Keck
+
+984
+
+Microscopy Center) for microscopy support. The authors especially thank the
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+985
+
+individuals who donated tissue to generate the cell lines, without whom this work
+
+986
+
+would not be possible.
+
+987
+988
+
+GLOSSARY
+
+989
+
+AD – Alzheimer’s disease
+
+990
+
+CBE - conduritol B epoxide
+
+991
+
+DEG - differentially expressed gene
+
+992
+
+DLB – dementia with Lewy Bodies
+
+993
+
+EEA1 – early endosome antigen 1
+
+994
+
+GBA1 – glucosidase, beta acid 1
+
+995
+
+iPSC – induced pluripotent stem cell
+
+996
+
+LAMP1 – lysosome-associated membrane protein 1
+
+997
+
+MSA – multiple system atrophy
+
+998
+
+NPC – neural progenitor cell
+
+999
+
+PD – Parkinson’s disease
+
+1000
+1001
+
+CRediT Author Statement
+
+1002
+
+Anna J. Park: Methodology, Formal analysis, Investigation, Visualization, Writing –
+
+1003
+
+Review & Editing
+
+1004
+
+Sarah L. Fish: Methodology, Formal analysis, Investigation, Visualization, Writing –
+
+1005
+
+Review & Editing
+
+1006
+
+Colby L. Samstag: Methodology, Formal analysis, Software, Data Curation, Writing –
+
+1007
+
+Review & Editing, Visualization
+
+1008
+
+Minsuh Kim: Methodology, Formal analysis, Investigation, Visualization, Writing –
+
+1009
+
+Review & Editing
+
+1010
+
+Jeremy Weiss: Software, Methodology, Formal analysis
+
+1011
+
+Selina
+
+1012
+
+administration, Writing – Review & Editing
+
+1013
+
+Malia L. Callier: Investigation, Formal analysis, Review & Editing
+
+1014
+
+Ella H. Chiu: Investigation, Formal analysis
+
+1015
+
+Joshua Weiss: Software, Methodology, Formal analysis
+
+Yu:
+
+Investigation,
+
+Formal
+
+analysis,
+
+Visualization,
+
+Supervision,
+
+Project
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+1016
+
+Christiane Hampe: Validation, Formal analysis, Review & Editing
+
+1017
+
+Raja E. Estes: Methodology, Investigation, Review & Editing
+
+1018
+
+Bernice Lin: Methodology, Investigation, Review & Editing
+
+1019
+
+Arnav Khera: Investigation
+
+1020
+
+Dora Yearout: Resources, Validation
+
+1021
+
+Leo J. Pallanck: Resources, Writing – Review & Editing
+
+1022
+
+Cyrus P. Zabetian: Resources, Writing – Review & Editing, Project administration,
+
+1023
+
+Funding acquisition
+
+1024
+
+Marie Y. Davis: Conceptualization, Methodology, Validation, Formal analysis,
+
+1025
+
+Resources, Data Curation, Writing – Original draft, Writing – Review & Editing,
+
+1026
+
+Visualization, Supervision, Project administration, Funding acquisition
+
+1027
+1028
+1029
+1030
+1031
+1032
+1033
+1034
+1035
+1036
+1037
+1038
+1039
+1040
+1041
+1042
+1043
+1044
+1045
+1046
+1047
+1048
+1049
+1050
+1051
+1052
+1053
+1054
+
+References
+1.
+2.
+3.
+
+4.
+5.
+
+6.
+
+7.
+
+Muraleedharan, A., and Vanderperre, B. (2023). The Endo-lysosomal System in
+Parkinson's Disease: Expanding the Horizon. J Mol Biol 435, 168140.
+10.1016/j.jmb.2023.168140.
+Filippini, A., Gennarelli, M., and Russo, I. (2019). alpha-Synuclein and Glia in
+Parkinson's Disease: A Beneficial or a Detrimental Duet for the Endo-Lysosomal
+System? Cell Mol Neurobiol 39, 161–168. 10.1007/s10571-019-00649-9.
+Pankratz, N., Beecham, G.W., DeStefano, A.L., Dawson, T.M., Doheny, K.F.,
+Factor, S.A., Hamza, T.H., Hung, A.Y., Hyman, B.T., Ivinson, A.J., et al. (2012).
+Meta-analysis of Parkinson's disease: identification of a novel locus, RIT2.
+Annals of neurology 71, 370–384. 10.1002/ana.22687.
+Sidransky, E., and Lopez, G. (2012). The link between the GBA gene and
+parkinsonism. Lancet Neurol 11, 986–998. 10.1016/S1474-4422(12)70190-4.
+Mata, I.F., Leverenz, J.B., Weintraub, D., Trojanowski, J.Q., Chen-Plotkin, A., Van
+Deerlin, V.M., Ritz, B., Rausch, R., Factor, S.A., Wood-Siverio, C., et al. (2016).
+GBA Variants are associated with a distinct pattern of cognitive deficits in
+Parkinson's disease. Mov Disord 31, 95–102. 10.1002/mds.26359.
+Gan-Or, Z., Giladi, N., Rozovski, U., Shifrin, C., Rosner, S., Gurevich, T., BarShira, A., and Orr-Urtreger, A. (2008). Genotype-phenotype correlations between
+GBA mutations and Parkinson disease risk and onset. Neurology 70, 2277–2283.
+10.1212/01.wnl.0000304039.11891.29.
+Sidransky, E., Nalls, M.A., Aasly, J.O., Aharon-Peretz, J., Annesi, G., Barbosa,
+E.R., Bar-Shira, A., Berg, D., Bras, J., Brice, A., et al. (2009). Multicenter analysis
+of glucocerebrosidase mutations in Parkinson's disease. N Engl J Med 361,
+1651–1661. 10.1056/NEJMoa0901281.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+1055
+1056
+1057
+1058
+1059
+1060
+1061
+1062
+1063
+1064
+1065
+1066
+1067
+1068
+1069
+1070
+1071
+1072
+1073
+1074
+1075
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1089
+1090
+1091
+1092
+1093
+1094
+1095
+1096
+1097
+1098
+1099
+1100
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+16.
+17.
+
+18.
+
+19.
+
+Neumann, J., Bras, J., Deas, E., O'Sullivan, S.S., Parkkinen, L., Lachmann, R.H.,
+Li, A., Holton, J., Guerreiro, R., Paudel, R., et al. (2009). Glucocerebrosidase
+mutations in clinical and pathologically proven Parkinson's disease. Brain 132,
+1783–1794. 10.1093/brain/awp044.
+Davis, M.Y., Johnson, C.O., Leverenz, J.B., Weintraub, D., Trojanowski, J.Q.,
+Chen-Plotkin, A., Van Deerlin, V.M., Quinn, J.F., Chung, K.A., Peterson-Hiller,
+A.L., et al. (2016). Association of GBA Mutations and the E326K Polymorphism
+With Motor and Cognitive Progression in Parkinson Disease. JAMA Neurol 73,
+1217–1224. 10.1001/jamaneurol.2016.2245.
+Davis, A.A., Andruska, K.M., Benitez, B.A., Racette, B.A., Perlmutter, J.S., and
+Cruchaga, C. (2016). Variants in GBA, SNCA, and MAPT influence Parkinson
+disease risk, age at onset, and progression. Neurobiol Aging 37, 209 e201–209
+e207. 10.1016/j.neurobiolaging.2015.09.014.
+Brockmann, K., Srulijes, K., Pflederer, S., Hauser, A.K., Schulte, C., Maetzler, W.,
+Gasser, T., and Berg, D. (2015). GBA-associated Parkinson's disease: reduced
+survival and more rapid progression in a prospective longitudinal study. Mov
+Disord 30, 407–411. 10.1002/mds.26071.
+Thomas, R.E., Vincow, E.S., Merrihew, G.E., MacCoss, M.J., Davis, M.Y., and
+Pallanck, L.J. (2018). Glucocerebrosidase deficiency promotes protein
+aggregation through dysregulation of extracellular vesicles. PLoS Genet 14,
+e1007694. 10.1371/journal.pgen.1007694.
+Jewett, K.A., Thomas, R.E., Phan, C.Q., Lin, B., Milstein, G., Yu, S., Bettcher,
+L.F., Neto, F.C., Djukovic, D., Raftery, D., et al. (2021). Glucocerebrosidase
+reduces the spread of protein aggregation in a Drosophila melanogaster model of
+neurodegeneration by regulating proteins trafficked by extracellular vesicles.
+PLoS Genet 17, e1008859. 10.1371/journal.pgen.1008859.
+Davis, M.Y., Trinh, K., Thomas, R.E., Yu, S., Germanos, A.A., Whitley, B.N.,
+Sardi, S.P., Montine, T.J., and Pallanck, L.J. (2016). Glucocerebrosidase
+Deficiency in Drosophila Results in alpha-Synuclein-Independent Protein
+Aggregation and Neurodegeneration. PLoS Genet 12, e1005944.
+10.1371/journal.pgen.1005944.
+O'Sullivan, M.J., and Lindsay, A.J. (2020). The Endosomal Recycling Pathway-At
+the Crossroads of the Cell. Int J Mol Sci 21. 10.3390/ijms21176074.
+Wang, C., Telpoukhovskaia, M.A., Bahr, B.A., Chen, X., and Gan, L. (2018).
+Endo-lysosomal dysfunction: a converging mechanism in neurodegenerative
+diseases. Curr Opin Neurobiol 48, 52–58. 10.1016/j.conb.2017.09.005.
+Estes, R.E., Lin, B., Khera, A., and Davis, M.Y. (2021). Lipid Metabolism
+Influence on Neurodegenerative Disease Progression: Is the Vehicle as
+Important as the Cargo? Front Mol Neurosci 14, 788695.
+10.3389/fnmol.2021.788695.
+Loria, F., Vargas, J.Y., Bousset, L., Syan, S., Salles, A., Melki, R., and Zurzolo, C.
+(2017). alpha-Synuclein transfer between neurons and astrocytes indicates that
+astrocytes play a role in degradation rather than in spreading. Acta Neuropathol
+134, 789–808. 10.1007/s00401-017-1746-2.
+Mori, F., Tanji, K., Yoshimoto, M., Takahashi, H., and Wakabayashi, K. (2002).
+Demonstration of alpha-synuclein immunoreactivity in neuronal and glial
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+1101
+1102
+1103
+1104
+1105
+1106
+1107
+1108
+1109
+1110
+1111
+1112
+1113
+1114
+1115
+1116
+1117
+1118
+1119
+1120
+1121
+1122
+1123
+1124
+1125
+1126
+1127
+1128
+1129
+1130
+1131
+1132
+1133
+1134
+1135
+1136
+1137
+1138
+1139
+1140
+1141
+1142
+1143
+1144
+
+20.
+21.
+
+22.
+
+23.
+
+24.
+25.
+
+26.
+
+27.
+
+28.
+29.
+30.
+
+cytoplasm in normal human brain tissue using proteinase K and formic acid
+pretreatment. Experimental neurology 176, 98–104. 10.1006/exnr.2002.7929.
+Rodriguez-Castaneda, M., Campos-Rios, A., Lamas, J.A., and Covelo, A. (2025).
+Astrocyte alterations in alpha-synucleinopathies. Front Cell Neurosci 19,
+1650326. 10.3389/fncel.2025.1650326.
+Lindstrom, V., Gustafsson, G., Sanders, L.H., Howlett, E.H., Sigvardson, J.,
+Kasrayan, A., Ingelsson, M., Bergstrom, J., and Erlandsson, A. (2017). Extensive
+uptake of alpha-synuclein oligomers in astrocytes results in sustained
+intracellular deposits and mitochondrial damage. Mol Cell Neurosci 82, 143–156.
+10.1016/j.mcn.2017.04.009.
+Tsunemi, T., Ishiguro, Y., Yoroisaka, A., Valdez, C., Miyamoto, K., Ishikawa, K.,
+Saiki, S., Akamatsu, W., Hattori, N., and Krainc, D. (2020). Astrocytes Protect
+Human Dopaminergic Neurons from alpha-Synuclein Accumulation and
+Propagation. J Neurosci 40, 8618–8628. 10.1523/JNEUROSCI.0954-20.2020.
+Sullivan, S.E., Liao, M., Smith, R.V., White, C., Lagomarsino, V.N., Xu, J., Taga,
+M., Bennett, D.A., De Jager, P.L., and Young-Pearse, T.L. (2019). Candidatebased screening via gene modulation in human neurons and astrocytes
+implicates FERMT2 in Abeta and TAU proteostasis. Hum Mol Genet 28, 718–
+735. 10.1093/hmg/ddy376.
+He, G.S., and Grabowski, G.A. (1992). Gaucher disease: A G+1----A+1 IVS2
+splice donor site mutation causing exon 2 skipping in the acid beta-glucosidase
+mRNA. Am J Hum Genet 51, 810–820.
+Wheeler, S., Haberkant, P., Bhardwaj, M., Tongue, P., Ferraz, M.J., Halter, D.,
+Sprong, H., Schmid, R., Aerts, J., Sullo, N., and Sillence, D.J. (2019). Cytosolic
+glucosylceramide regulates endolysosomal function in Niemann-Pick type C
+disease. Neurobiol Dis 127, 242–252. 10.1016/j.nbd.2019.03.005.
+Gustavsson, E.K., Sethi, S., Gao, Y., Brenton, J.W., Garcia-Ruiz, S., Zhang, D.,
+Garza, R., Reynolds, R.H., Evans, J.R., Chen, Z., et al. (2024). The annotation of
+GBA1 has been concealed by its protein-coding pseudogene GBAP1. Sci Adv
+10, eadk1296. 10.1126/sciadv.adk1296.
+Subramanian, A., Tamayo, P., Mootha, V.K., Mukherjee, S., Ebert, B.L., Gillette,
+M.A., Paulovich, A., Pomeroy, S.L., Golub, T.R., Lander, E.S., and Mesirov, J.P.
+(2005). Gene set enrichment analysis: a knowledge-based approach for
+interpreting genome-wide expression profiles. Proc Natl Acad Sci U S A 102,
+15545–15550. 10.1073/pnas.0506580102.
+Jones, E.V., and Bouvier, D.S. (2014). Astrocyte-secreted matricellular proteins in
+CNS remodelling during development and disease. Neural Plast 2014, 321209.
+10.1155/2014/321209.
+Bian, F., Xiong, B., Yang, X., and Jin, S. (2016). Lipid rafts, ceramide and
+molecular transcytosis. Front Biosci (Landmark Ed) 21, 806–838. 10.2741/4422.
+Eich, C., Manzo, C., de Keijzer, S., Bakker, G.J., Reinieren-Beeren, I., GarciaParajo, M.F., and Cambi, A. (2016). Changes in membrane sphingolipid
+composition modulate dynamics and adhesion of integrin nanoclusters. Sci Rep
+6, 20693. 10.1038/srep20693.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+1145
+1146
+1147
+1148
+1149
+1150
+1151
+1152
+1153
+1154
+1155
+1156
+1157
+1158
+1159
+1160
+1161
+1162
+1163
+1164
+1165
+1166
+1167
+1168
+1169
+1170
+1171
+1172
+1173
+1174
+1175
+1176
+1177
+1178
+1179
+1180
+1181
+1182
+1183
+1184
+1185
+1186
+1187
+1188
+1189
+1190
+
+31.
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+Kinoshita, M., and Matsumori, N. (2022). Inimitable Impacts of Ceramides on
+Lipid Rafts Formed in Artificial and Natural Cell Membranes. Membranes (Basel)
+12. 10.3390/membranes12080727.
+Liddelow, S.A., Guttenplan, K.A., Clarke, L.E., Bennett, F.C., Bohlen, C.J.,
+Schirmer, L., Bennett, M.L., Munch, A.E., Chung, W.S., Peterson, T.C., et al.
+(2017). Neurotoxic reactive astrocytes are induced by activated microglia. Nature
+541, 481–487. 10.1038/nature21029.
+Kinghorn, K.J., Gronke, S., Castillo-Quan, J.I., Woodling, N.S., Li, L., Sirka, E.,
+Gegg, M., Mills, K., Hardy, J., Bjedov, I., and Partridge, L. (2016). A Drosophila
+Model of Neuronopathic Gaucher Disease Demonstrates Lysosomal-Autophagic
+Defects and Altered mTOR Signalling and Is Functionally Rescued by
+Rapamycin. J Neurosci 36, 11654–11670. 10.1523/JNEUROSCI.4527-15.2016.
+Kuo, S.H., Tasset, I., Cheng, M.M., Diaz, A., Pan, M.K., Lieberman, O.J., Hutten,
+S.J., Alcalay, R.N., Kim, S., Ximenez-Embun, P., et al. (2022). Mutant
+glucocerebrosidase impairs alpha-synuclein degradation by blockade of
+chaperone-mediated autophagy. Sci Adv 8, eabm6393. 10.1126/sciadv.abm6393.
+Kurzawa-Akanbi, M., Hanson, P.S., Blain, P.G., Lett, D.J., McKeith, I.G.,
+Chinnery, P.F., and Morris, C.M. (2012). Glucocerebrosidase mutations alter the
+endoplasmic reticulum and lysosomes in Lewy body disease. J Neurochem 123,
+298–309. 10.1111/j.1471-4159.2012.07879.x.
+Samuel, F., Flavin, W.P., Iqbal, S., Pacelli, C., Sri Renganathan, S.D., Trudeau,
+L.E., Campbell, E.M., Fraser, P.E., and Tandon, A. (2016). Effects of Serine 129
+Phosphorylation on alpha-Synuclein Aggregation, Membrane Association, and
+Internalization. J Biol Chem 291, 4374–4385. 10.1074/jbc.M115.705095.
+Ghanem, S.S., Majbour, N.K., Vaikath, N.N., Ardah, M.T., Erskine, D., Jensen,
+N.M., Fayyad, M., Sudhakaran, I.P., Vasili, E., Melachroinou, K., et al. (2022).
+alpha-Synuclein phosphorylation at serine 129 occurs after initial protein
+deposition and inhibits seeded fibril formation and toxicity. Proc Natl Acad Sci U S
+A 119, e2109617119. 10.1073/pnas.2109617119.
+Jiao, J., Liu, W., Gao, G., and Yang, H. (2025). Serine-129 phosphorylated alphasynuclein drives mitochondrial dysfunction and calcium dysregulation in
+Parkinson's disease model. Front Aging Neurosci 17, 1538166.
+10.3389/fnagi.2025.1538166.
+Cavaliere, F., Cerf, L., Dehay, B., Ramos-Gonzalez, P., De Giorgi, F., Bourdenx,
+M., Bessede, A., Obeso, J.A., Matute, C., Ichas, F., and Bezard, E. (2017). In
+vitro alpha-synuclein neurotoxicity and spreading among neurons and astrocytes
+using Lewy body extracts from Parkinson disease brains. Neurobiol Dis 103,
+101–112. 10.1016/j.nbd.2017.04.011.
+Vaughen, J.P., Theisen, E., Rivas-Serna, I.M., Berger, A.B., Kalakuntla, P.,
+Anreiter, I., Mazurak, V.C., Rodriguez, T.P., Mast, J.D., Hartl, T., et al. (2022).
+Glial control of sphingolipid levels sculpts diurnal remodeling in a circadian
+circuit. Neuron 110, 3186–3205 e3187. 10.1016/j.neuron.2022.07.016.
+Yun, S.P., Kam, T.I., Panicker, N., Kim, S., Oh, Y., Park, J.S., Kwon, S.H., Park,
+Y.J., Karuppagounder, S.S., Park, H., et al. (2018). Block of A1 astrocyte
+conversion by microglia is neuroprotective in models of Parkinson's disease. Nat
+Med 24, 931–938. 10.1038/s41591-018-0051-5.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+
+1191
+1192
+1193
+1194
+1195
+1196
+1197
+1198
+1199
+1200
+1201
+1202
+1203
+1204
+1205
+1206
+1207
+1208
+1209
+1210
+1211
+1212
+1213
+1214
+1215
+1216
+1217
+1218
+1219
+1220
+1221
+1222
+
+42.
+
+43.
+44.
+
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+Sanyal, A., DeAndrade, M.P., Novis, H.S., Lin, S., Chang, J., Lengacher, N.,
+Tomlinson, J.J., Tansey, M.G., and LaVoie, M.J. (2020). Lysosome and
+Inflammatory Defects in GBA1-Mutant Astrocytes Are Normalized by LRRK2
+Inhibition. Mov Disord 35, 760–773. 10.1002/mds.27994.
+Kim, M.J., Jeon, S., Burbulla, L.F., and Krainc, D. (2018). Acid ceramidase
+inhibition ameliorates alpha-synuclein accumulation upon loss of GBA1 function.
+Hum Mol Genet 27, 1972–1988. 10.1093/hmg/ddy105.
+Couttas, T.A., Kain, N., Tran, C., Chatterton, Z., Kwok, J.B., and Don, A.S.
+(2018). Age-Dependent Changes to Sphingolipid Balance in the Human
+Hippocampus are Gender-Specific and May Sensitize to Neurodegeneration. J
+Alzheimers Dis 63, 503–514. 10.3233/JAD-171054.
+Tong, B., Ba, Y., Li, Z., Yang, C., Su, K., Qi, H., Zhang, D., Liu, X., Wu, Y., Chen,
+Y., et al. (2024). Targeting dysregulated lipid metabolism for the treatment of
+Alzheimer's disease and Parkinson's disease: Current advancements and future
+prospects. Neurobiol Dis 196, 106505. 10.1016/j.nbd.2024.106505.
+Taguchi, Y.V., Liu, J., Ruan, J., Pacheco, J., Zhang, X., Abbasi, J., Keutzer, J.,
+Mistry, P.K., and Chandra, S.S. (2017). Glucosylsphingosine Promotes alphaSynuclein Pathology in Mutant GBA-Associated Parkinson's Disease. J Neurosci
+37, 9617–9631. 10.1523/JNEUROSCI.1525-17.2017.
+Mishra, S., Knupp, A., Kinoshita, C., Williams, C.A., Rose, S.E., Martinez, R.,
+Theofilas, P., and Young, J.E. (2023). Pharmacologic enhancement of retromer
+rescues endosomal pathology induced by defects in the Alzheimer's gene
+SORL1. Stem Cell Reports 18, 2434–2450. 10.1016/j.stemcr.2023.10.011.
+Rose, S.E., Williams, C.A., Hailey, D.W., Mishra, S., Kirkland, A., Keene, C.D.,
+Garden, G.A., Jayadev, S., and Young, J.E. (2023). Advancements in highresolution 3D microscopy analysis of endosomal morphology in postmortem
+Alzheimer's disease brains. Front Neurosci 17, 1321680.
+10.3389/fnins.2023.1321680.
+Edgar, R., Domrachev, M., and Lash, A.E. (2002). Gene Expression Omnibus:
+NCBI gene expression and hybridization array data repository. Nucleic Acids Res
+30, 207–210. 10.1093/nar/30.1.207.
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+(which was not certified by peer review) is the author/funder. This article is a US Government work. It is not subject to copyright under 17 USC
+105 and is also made available for use under a CC0 license.
+Midbrain
+
+A
+
+Dopaminergic
+Neurons
+
+iPSCs
+
+Neural
+Progenitor Cells
+
+Differentiation and
+Maturation
+
+Induction
+
+Astrocyte
+Progenitor Cells
+Astrocyte
+Maturation
+
+GBA1+/+ #1, #2, #3
+GBA1IVS/+ #1, #2, #6
+
+Astrocytes
+
+GBA1IVS/IVS
+GBA1+/+ Rev
+GBA1IVS/+ A4
+
+CRISPR/Cas9
+
+B
+
+C
+
+D
+
+70kD -
+
+1
+
+2
+
+3
+
+Relative GBA level
+
+Relative GCase Activity
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+4
+Anti-GBA
+Anti-βAct
+
+42kD -
+
+E
+GBA1+/+ iPSC Astrocytes
+
+GBA1+/+ iPSC Neurons
+
+NEFM
+DDC
+TH
+SNCA
+ATP2A3
+CPNE7
+DRD1
+DRD2
+DRD4
+S100B
+CD44
+CP
+AMIGO2
+B3GNT5
+TNC
+VIM
+
+Z-score
+2
+1
+0
+-1
+-2
+
+#3
+
+#2
+
+#1
+
+#3
+
+#1
+
+#2
+
+GBA1+/+ #2+CBE
+
+E
+
+EEA1 / Vimentin / DAPI
+
+D
+1
+
+2
+
+3
+
+4
+
+180kD Anti-EEA1
+
+Anti-βAct
+
+42kD -
+
+Puncta cell volume/
+sum volume
+
+G
+
+H
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+1
+
+2
+
+3
+
+4
+
+180kD Anti-EEA1
+
+42kD -
+
+Anti-βAct
+
+Relative EEA1 level
+
+GBA1IVS/IVS
+
+GBA1+/+ #2
+
+GBA1+/+ #2+CBE
+
+EEA1 / Vimentin / DAPI
+
+GBA1IVS/+ #2
+Puncta size (μm3)
+
+F
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+Relative EEA1 level
+
+C
+Puncta cell volume/
+sum volume
+
+GBA1IVS/IVS
+
+B
+Puncta size (μm3)
+
+GBA1+/+ #2
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+EEA1
+/ by
+MAP2
+/ DAPI
+/ MAP2
+/ DAPI
+(which was not
+certified
+peer review)
+is the author/funder. This article is a US Government work.EEA1
+It is not subject
+to copyright
+under 17 USC
+105 and is also made available for use under a CC0 license.
+
+GBA1IVS/+ #2
+
+A
+
+GBA1+/+ #2+CBE
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+LAMP1
+/ MAP2
+/ DAPI
+LAMP1
+/ MAP2
+/ DAPI
+(which was not
+certified by
+peer review)
+is the author/funder. This article is a US Government work.
+It is not subject
+to copyright
+under 17 USC
+105 and is also made available for use under a CC0 license.
+
+D
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+1
+
+2
+
+3
+
+4
+
+130kD Anti-LAMP1
+70kD Anti-βAct
+
+42kD -
+
+LAMP1 / Vimentin / DAPI
+GBA1+/+ #2+CBE
+
+LAMP1 / Vimentin / DAPI
+
+H
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+130kD -
+
+42kD -
+
+1
+
+2
+
+3
+
+4
+
+Anti-LAMP1
+
+Anti-βAct
+
+Relative LAMP1 level
+
+G
+Puncta cell volume/
+sum volume
+
+Puncta size (μm3)
+
+F
+
+GBA1IVS/IVS
+
+GBA1IVS/+ #2
+
+GBA1+/+ #2
+
+E
+
+Relative LAMP1 level
+
+C
+Puncta cell volume/
+sum volume
+
+Puncta size (μm3)
+
+B
+
+GBA1IVS/IVS
+
+GBA1IVS/+ #2
+
+GBA1+/+ #2
+
+A
+
+GBA1+/+ #2+CBE
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+/ MAP2
+/ DAPI
+/ MAP2
+/ DAPI
+(which was notRab11
+certified by
+peer review)
+is the author/funder. This article is a US Government work. Rab11
+It is not subject
+to copyright
+under 17 USC
+105 and is also made available for use under a CC0 license.
+
+E
+
+Rab11 / Vimentin / DAPI
+
+D
+1
+
+2
+
+3
+
+4
+
+20kD -
+
+Anti-Rab11
+
+42kD -
+
+Anti-βAct
+
+Rab11 / Vimentin / DAPI
+
+GBA1+/+ #2
+
+Puncta cell volume/
+sum volume
+
+G
+
+H
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+1
+
+2
+
+3
+
+4
+
+20kD -
+
+Anti-Rab11
+
+42kD -
+
+Anti-βAct
+
+Relative Rab11 level
+
+GBA1IVS/IVS
+
+GBA1IVS/+ #2
+Puncta size (μm3)
+
+F
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+GBA1+/+ #2+CBE
+
+Puncta cell volume/
+sum volume
+
+C
+
+Puncta size (μm3)
+
+B
+
+Relative Rab11 level
+
+GBA1IVS/+ #2
+
+GBA1IVS/IVS
+
+GBA1+/+ #2
+
+A
+
+GBA1+/+ #2+CBE
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+/ by
+MAP2
+/ DAPI
+/ MAP2
+/ DAPI
+(which was notαsyn
+certified
+peer review)
+is the author/funder. This article is a US Government work. Itαsyn
+is not subject
+to copyright
+under 17 USC
+105 and is also made available for use under a CC0 license.
+
+D
+1
+
+2
+
+3
+
+4
+
+αsyn pS129
+
+42kD -
+
+Anti-βAct
+
+3
+
+4
+
+αsyn oligomers
+
+70kD 15kD -
+
+αsyn monomers
+
+42kD -
+
+Anti-βAct
+
+1
+
+2
+
+3
+
+4
+
+15kD -
+
+αsyn pS129
+
+42kD -
+
+Anti-βAct
+
+Relative αsyn pS129 level
+
+H
+250kD -
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+1
+
+2
+
+3
+
+4
+
+αsyn oligomers
+
+70kD 15kD -
+
+αsyn monomers
+
+42kD -
+
+Anti-βAct
+
+Relative αsyn oligomer level
+
+GBA1IVS/IVS
+
+G
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+Total intensity
+
+2
+
+αsyn / Vimentin / DAPI
+
+GBA1IVS/+ #2
+
+F
+
+1
+
+αsyn / Vimentin / DAPI
+
+GBA1+/+ #2
+
+E
+
+15kD -
+
+250kD -
+
+GBA1+/+ #2+CBE
+
+Total intensity
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+1 – GBA1+/+ #2
+2 – GBA1IVS/+ #2
+3 – GBA1+/+ #2+CBE
+4 – GBA1IVS/IVS
+
+Relative αsyn oligomer level
+
+C
+Relative αsyn pS129 level
+
+B
+
+GBA1IVS/IVS
+
+GBA1IVS/+ #2
+
+GBA1+/+ #2
+
+A
+
+C
+
+B
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+IVS/+ vs
+(which was not certified by peer review) is the author/funder.
+This article
+is avsUS
+Government
+to GBA1
+copyright
+under
+17+/+
+USC
+Astrocyte
+GBA1
+DEGs
+Neuron
+GBA1IVS/+
+GBA1+/+
+DEGs work. It is not subject
+105 and is also made available for use under a CC0 license.
+Genotype
+Cell Type
+
+4
+2
+0
+-2
+-4
+
+Upregulated
+
+(padj)
+
+Matrix 25
+
+(padj)
+
+Downregulated
+
+Genotype
+GBA1IVS/+
+
+GBA1IVS/IVS
+
+Cell Type
+Astrocytes
+Neurons
+
+(Fold Change)
+
+(Fold Change)
+
+D
+
+E
+
+Upregulated DEGs
+
+Downregulated DEGs
+Neurons
+
+Astrocytes
+GBA1IVS/+
+
+Neurons
+
+GBA1IVS/+
+
+GBA1IVS/IVS
+
+GBA1IVS/+
+
+GBA1IVS/IVS
+
+Astrocytes
+GBA1IVS/+
+
+GBA1IVS/IVS
+
+F
+
+1500
+
+Number of DEGs
+
+A
+
+Cell-type specific vs shared responses
+
+Direction
+
+1000
+
+Downregulated
+Upregulated
+500
+
+0
+
+G
+
+GBA1IVS/IVS
+
+Astrocyte-specific
+
+Shared
+
+Neuron-specific
+
+Neurons
+Cholesterol Biosynthesis
+Ephrin Signaling
+Raf Activation
+Cd209 Dc Sign Signaling
+
+Direction
+
+Keratinization
+
+Down
+
+Formation of the Cornified Envelope
+
+Up
+
+Hdr Through Homologous Recombination Hrr
+Interferon Signaling
+Modulation of Host Response by Ifn Stimulated Genes
+Interferon Alpha Beta Signaling
+
+-2
+
+0
+
+-1
+
+2
+
+1
+
+Normalized Enrichment Score (NES)
+
+H
+
+Astrocytes
+Extracellular Matrix Organization
+Ecm Proteoglycans
+Degradation of the Extracellular Matrix
+Eukaryotic Translation Initiation
+Eukaryotic Translation Elongation
+
+Direction
+
+S Phase
+
+Down
+
+Influenza Infection
+
+Up
+
+Cyclin A Cdk2 Associated Events at S Phase Entry
+
+GBA1IVS/+
+
+GBA1IVS/IVS
+
+GBA1IVS/+
+
+GBA1IVS/IVS
+
+Mitochondrial Translation
+Translation
+
+-2
+
+-1
+
+0
+
+1
+
+Normalized Enrichment Score (NES)
+
+2
+
+A
+
+C
+
+B
+
+bioRxiv preprint doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The copyright holder for this preprint
+
+(which
+was
+certified
+by peer review) is the Shared
+author/funder.
+article is a US
+Government
+copyright
+under 17
+USC
+Shared
+DEGs
+in not
+GBA1 KO
+(n=255)
+Coresubject
+GBA1 to
+Pathways:
+Shared
+Effects
+DEGs:This
+Concordance
+Between Cell
+Typeswork. It is not
+105 and is also made
+available
+for= 255
+usegenes
+under a CC0 license. (Robust findings across both cell types)
+Concordant changes in both GBA1 Neurons
+Pearson r =
+0.889 | n
+Downregulated
+and GBA1 Astrocytes
+Direction
+S1PR2
+
+Upregulated
+
+15 Direction
+10
+
+Downregulated
+
+SLC27A1
+
+5
+
+Upregulated
+
+AMACR
+
+0
+
+LRAT
+
+-5
+
+Fold Change (GBA1 Astrocytes)
+
+ASGR1
+
+-10
+-15
+
+HS3ST5
+ENPP5
+GALNT15
+PEX6
+CCZ1B
+ITM2C
+ELMOD1
+NDUFAF8
+LYRM7
+ABCB10
+Fold Change (GBA1 Neurons)
+
+D
+
+CTSF
+
+Lysosome−Mitochondria−ER Axis
+Core GBA1 Pathology
+PEX6
+CCZ1B
+ITM2C
+ELMOD1
+CTSF
+LGALS8
+RAB39A
+NDUFAF8
+
+GLUD2
+
+4
+2
+0
+-2
+
+LGALS8
+
+Category
+
+RAB39A
+
+Lysosomal Compensation
+Lysosomal Dysfunction
+
+CRELD1
+
+Mitochondrial
+
+HSPA12B
+
+ER Stress
+ER−Mito Contacts
+
+PPIL3
+
+-4
+
+DHX35
+
+LYRM7
+
+PDZD8
+
+ABCB10
+GLUD2
+
+HSPA4L
+
+CRELD1
+
+SUV39H2
+
+HSPA12B
+PPIL3
+
+SETD7
+
+PDZD8
+
+Shared GBA1 KO Effects by Pathway
+Concordant changes in both GBA1 Neurons and GBA1 Astrocytes
+Cell Type
+
+Fold Change
+
+HLTF
+
+HSPA4L
+
+GBA1 Neurons GBA1 Astrocytes
+
+Pathway
+Direction
+
+GBA1 Astrocytes
+
+Category
+
+Direction
+
+E
+
+GBA1 Neurons
+
+GBA1 Neurons
+
+GBA1 Astrocytes
+
+GBA1 Neurons GBA1 Astrocytes
+
+4
+2
+0
+
+-2
+-4
+
+Downregulated
+Upregulated
+
+Pathway
+Sphingolipid/Lipid Metabolism
+
+Lysosome−Autophagy Compensation
+Mitochondrial Function
+Lysosomal Function
+ER Stress Response
+ER−Organelle Contacts
+Chromatin/Epigenetic
+
+A
+
+B
+
+C
+
+bioRxiv preprint
+doi: https://doi.org/10.64898/2026.01.12.697563; this version posted January 13, 2026. The
+copyright
+holder for this preprint
+Key GBA1-Pathway
+Genes:
+Lipid
+Metabolism:
+Reactive GBA1 Astrocyte/Gliosis Signature
+(which was
+not certified by peer review) is the author/funder.
+This article is a US Government work. It is
+not subject
+to copyright
+under 17 USC
+Cell−Type
+Specificity
+Divergent
+Cell−Type
+Responses
+(GBA1 Astrocyte−Specific)
+HMGCS1
+SREBF1
+
+5
+
+DHCR7
+APOE
+
+0
+
+Lipid 105 and is also made available for use under a CC0 license.
+COL3A1
+Lysosomal
+5
+ER Stress
+BGN
+Interferon
+Reactive
+PTGS2
+
+-5
+
+NPC1
+
+VCAM1
+
+GAA
+
+CXCL3
+
+CH25H
+
+GRN
+
+COL1A1
+
+CYP27A1
+
+FN1
+
+FADS1
+
+IL1R1
+
+FADS2
+
+SLC27A1
+
+ICAM1
+
+OAS1
+
+AMACR
+
+ATF3
+
+CHI3L1
+
+LRAT7
+
+DDIT3
+
+CXCL1
+
+GBA1 Neurons
+
+Lysosomal/Autophagy Genes:
+Cell−Type Specific Compensation
+CTSF
+ELMOD1
+CTSK
+CTSV
+LGALS8
+RAB39A
+TMEM175
+PLEKHM1
+NBR1
+
+4
+2
+
+Strategy
+Shared UP
+Shared DOWN
+Neuron−specific
+Astrocyte−specific
+
+0
+
+GBA1 Astrocytes
+
+F
+
+Category
+
+Pathway
+
+GBA1 Astrocytes
+
+GBA1 Neurons
+
+GBA1 Astrocytes
+
+Type I Interferon Response Genes
+Suppressed specifically in GBA1 Neurons upon GBA1 KO
+OAS2
+OASL
+
+-2
+
+IFNB1
+
+-4
+
+RSAD2
+
+ARSA
+
+IFI27
+
+GM2A
+
+OAS1
+
+CCZ1B
+
+MX2
+
+NPC1
+
+BST2
+
+CLCN6
+LGMN
+
+MX1
+
+MANBA
+
+ISG15
+
+GRN
+
+EPSTI1
+
+PEX6
+
+OAS3
+
+ITM2C
+
+IFIT3
+
+GAA
+FUCA1
+
+IFI6
+
+WIPI1
+
+IFIT2
+
+CTSZ
+
+Strategy
+
+GBA1 Astrocytes
+
+S1PR2
+
+CYR61
+
+MX1
+
+IFIT1
+
+GABARAPL1
+
+IFIH1
+HERC5
+
+IRF6
+
+ER Stress/UPR:
+Different Branches in Each Cell Type
+HSPA4L
+PDZD8
+DERL3
+
+0
+
+DERL1
+
+-2
+
+CANX
+TRIB3
+
+-4
+
+Branch
+IRE1/ERAD (Neuron)
+HSP70 Chaperones
+CHOP/Apoptosis
+Protein Folding
+Other
+
+USP18
+DDX60
+IFI35
+TRIM38
+CMPK2
+TRIM14
+DDX58
+DDX60L
+
+HSPA12B
+
+IFI44L
+
+CHAC1
+
+HERC6
+
+PPIL3
+
+STAT1
+
+CRELD1
+
+TRIM21
+
+DDIT3
+HSPA2
+HSPA1L
+ATF3
+HSPA1A
+DDIT4L
+
+Branch
+
+GBA1 Astrocytes
+
+2
+
+SDF2L1
+
+XBP1
+
+GBA1 Neurons
+
+IFI44
+
+4
+
+-5
+
+FADS3
+
+GADD45B
+
+ISG15
+
+-5
+
+0
+(Fold Change)
+
+Cholesterol Synthesis
+Cholesterol Transport
+Fatty Acid Desaturation
+Sphingolipid (Shared)
+
+0
+
+APOE
+
+CTGF
+
+DDIT3
+
+5
+
+SREBF1
+
+CTSK
+
+HSPA1A
+
+E
+
+-5
+
+CHI3L1
+COL1A2
+
+DERL1
+
+GBA1 Neurons
+
+DHCR7
+LSS
+
+TMEM175
+
+XBP1
+
+D
+
+MVD
+
+TNFAIP6
+
+FADS2
+
+GBA1 Neurons
+
+MVK
+
+0
+
+CXCL1
+
+CH25H
+
+HMGCS1
+
+

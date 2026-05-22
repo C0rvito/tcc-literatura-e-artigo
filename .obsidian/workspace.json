@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "db1432d30dd53159",
+        "id": "bb56b956b9234715",
         "type": "tabs",
-        "dimension": 44.82315112540193,
+        "dimension": 24.096385542168676,
         "children": [
           {
-            "id": "341a5eca3a7a310f",
+            "id": "7a50c0ef70e501db",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -17,32 +17,17 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "98d1ae565337ac0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
           }
         ]
       },
       {
-        "id": "bb56b956b9234715",
+        "id": "6f5b8ac87e033057",
         "type": "tabs",
-        "dimension": 55.17684887459807,
+        "dimension": 75.90361445783132,
         "children": [
           {
             "id": "4088f0de50c6803a",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "terminal:terminal",
               "state": {
@@ -75,60 +60,8 @@
                   "serial": null
                 }
               },
-              "pinned": true,
               "icon": "terminal",
-              "title": "Terminal: ◇  Ready (m40-tcc)"
-            }
-          },
-          {
-            "id": "977b55af051f3e52",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/home/m40ista/Documents/Obsidian Vaults/m40-tcc",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/sh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "linux": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "profileSourceId": "linuxIntegratedDefault",
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: ◇  Ready (m40-tcc)"
-            }
-          },
-          {
-            "id": "932c8028a3969150",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Terminal: sh"
             }
           }
         ]
@@ -271,13 +204,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "2a95e231fe1d2dfb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,41 +238,47 @@
   },
   "active": "4088f0de50c6803a",
   "lastOpenFiles": [
-    "wiki/fontes/Barabasi-2011-Network-Medicine.md",
-    "wiki/fontes/Dou-et-al-2025-Systems-Genetics.md",
-    "wiki/fontes/Torshizi-et-al-2024-Proteogenomics.md",
-    "wiki/fontes/Kim-et-al-2020-Calcium.md",
-    "wiki/fontes/Zhao-et-al-2023-LRRK2-Tissue.md",
-    "wiki/conceitos/Module Eigengene.md",
-    "wiki/conceitos/Soft Thresholding.md",
-    "wiki/conceitos/Redes Small-World.md",
-    "wiki/conceitos/Random Walk with Restart.md",
-    "wiki/conceitos/Motivos de Rede.md",
-    "wiki/conceitos/Medida de Sobreposição Topológica.md",
-    "wiki/conceitos/Conexão Preferencial.md",
-    "wiki/index.md",
-    "wiki/conceitos/Modularidade Hierárquica.md",
-    "wiki/conceitos/Centralidade de Intermediação.md",
-    "wiki/conceitos/Fragmentação de Rede.md",
-    "wiki/conceitos/Tolerância a Erros.md",
-    "raw/s41531-020-0110-8.pdf",
-    "theses/TCC_Parkinson_PT-BR.md",
-    "theses/Unconfirmed 498623.crdownload",
-    "wiki/fontes/Zhao-et-al-2024-LRRK2.md",
-    "raw/2010_ Barabási.pdf",
-    "raw/Unconfirmed 519684.crdownload",
-    "raw/s41531-025-00870-y.pdf",
-    "raw/Unconfirmed 884924.crdownload",
-    "raw/s41467-024-50718-x.pdf",
-    "raw/Unconfirmed 843149.crdownload",
-    "raw/s41531-024-00761-8.pdf",
-    "raw/PIIS1934590920303982.pdf",
-    "wiki/fontes/Koschutzki-Schreiber-2008.md",
-    "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
+    "wiki/fontes/Park-et-al-2026-GBA1.md",
+    "wiki/entidades/APOE.md",
+    "wiki/entidades/GBA2.md",
+    "wiki/entidades/RAB11A.md",
+    "wiki/entidades/LAMP1.md",
+    "wiki/entidades/EEA1.md",
+    "raw/GBA.txt",
     "wiki/fontes/Zhang-Horvath-2005-WGCNA-Framework.md",
+    "wiki/fontes/Zagare-et-al-2025.md",
+    "raw/GBA.pdf",
+    "raw/Unconfirmed 231542.crdownload",
+    "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
+    "wiki/fontes/Torshizi-et-al-2024-Proteogenomics.md",
     "wiki/fontes/Tran-et-al-2020.md",
-    "wiki/fontes/Montenegro-2022-WGCNA.md",
-    "wiki/fontes/Mason-Verwoerd-2007.md",
-    "wiki/fontes/Li-et-al-2018-WGCNA.md"
+    "theses/dddd.md",
+    "theses/data/figs/enrichment/LRRK2/LRRK2_Mol.svg",
+    "theses/data/figs/enrichment/LRRK2/Unconfirmed 342646.crdownload",
+    "theses/data/figs/enrichment/LRRK2",
+    "theses/data/figs/enrichment",
+    "theses/data/figs/LRRK2_UP_string_vector_graphic.svg",
+    "theses/data/figs/Unconfirmed 403487.crdownload",
+    "theses/data/figs/GBA_UP_string_vector_graphic.svg",
+    "theses/data/figs/Unconfirmed 776106.crdownload",
+    "theses/data/figs/string_normal_image.png",
+    "theses/data/figs/Unconfirmed 287946.crdownload",
+    "theses/data/string_mapping.tsv",
+    "theses/index.md",
+    "theses/data/figs/GBA_het_upstring_vector_graphic.svg",
+    "theses/data/figs/GBA_het_up_enrichment_TISSUES_sim0.8_graph.svg",
+    "GEMINI.md",
+    "theses/TCC_Parkinson_PT-BR.md",
+    "wiki/fontes/Albert-et-al-2000.md",
+    "wiki/conceitos/Organoides de Mesencéfalo.md",
+    "wiki/conceitos/Random Walk with Restart.md",
+    "wiki/conceitos/Redes de Co-expressão.md",
+    "wiki/conceitos/Redes Scale-free.md",
+    "wiki/conceitos/Redes Small-World.md",
+    "wiki/conceitos/Robustez.md",
+    "wiki/conceitos/Sinalização ROBO.md",
+    "wiki/conceitos/Soft Thresholding.md",
+    "wiki/conceitos/Tolerância a Erros.md",
+    "wiki/conceitos/Via Autofagia-Lisossomo.md"
   ]
 }
