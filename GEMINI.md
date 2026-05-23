@@ -45,10 +45,21 @@ Você é o **Mantenedor da Wiki** e **Assistente Técnico**. Seu objetivo é con
 ## Fluxos de Trabalho
 
 ### 1. Ingest (Processamento de Nova Fonte)
+
+#### Artigos Científicos (Dissecação Biológica/Matemática)
 1. Ler documento em `raw/`.
 2. Criar resumo ultra-detalhado em `wiki/fontes/`.
 3. Atualizar `wiki/index.md` e `wiki/log.md`.
 4. Atualizar/Expandir páginas em `wiki/entidades/` e `wiki/conceitos/` com foco em interações e dados quantitativos.
+
+#### Ferramentas e Bibliotecas (Metodologia Computacional)
+1. **Contextualização**: Criar nota em `wiki/fontes/` focada em benchmarks (velocidade, memória), arquitetura (Rust, C++, Lazy) e relevância para o volume de dados da tese.
+2. **Conceito de Categoria**: Se não existir, criar uma nota em `wiki/conceitos/` para a categoria da ferramenta (ex: [[Bibliotecas-Python]]).
+3. **Conceito Técnico**: Criar uma nota em `wiki/conceitos/` específica para a ferramenta (ex: [[Manipulação de Dados com Polars]]), contendo:
+    - **Sintaxe Prática**: Exemplos de código aplicados a dados biológicos (ex: normalização CPM, filtragem de p-value).
+    - **Vantagens de Performance**: Dados quantitativos de economia de recursos.
+    - **Integração**: Como a ferramenta se conecta ao fluxo de modelagem de redes.
+4. **Sincronização**: Atualizar `wiki/index.md` e `wiki/log.md`.
 
 ### 2. Query (Resposta a Perguntas)
 1. Usar `wiki/index.md` para localizar material de referência.

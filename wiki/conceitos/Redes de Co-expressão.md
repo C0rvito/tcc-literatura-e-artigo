@@ -14,7 +14,12 @@ O WGCNA é a técnica padrão-ouro para construir estas redes de forma ponderada
 - **Convergência**: Genes mutados em diferentes variantes de DP (ex: [[SNCA]] e [[PRKN]]) frequentemente participam dos mesmos módulos de co-expressão em linhagens iPSC [[Zagare-et-al-2025]].
 - **Hubs Gênicos**: Genes com alta conectividade dentro de um módulo são considerados alvos terapêuticos primários [[Li-et-al-2018-WGCNA]].
 
+## Implementação e Performance
+A construção de redes de co-expressão a partir de dados de RNA-Seq de larga escala exige alta eficiência computacional.
+- **Ferramentas**: Embora o R seja o padrão para WGCNA, o ecossistema [[Bibliotecas-Python]] (especialmente o **Polars**) oferece vantagens críticas de memória e velocidade para o processamento de grandes matrizes de correlação e listas de arestas [[Usando-Polars]].
+
 ## Fontes
 - [[Zagare-et-al-2025]]
 - [[Tran-et-al-2020]]
 - [[Li-et-al-2018-WGCNA]]
+- [[Usando-Polars]]

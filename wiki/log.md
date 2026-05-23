@@ -1,5 +1,30 @@
 # Wiki Log
 
+## [2026-05-22] Expansão: Documentação Prática do Polars
+- **Ação**: Atualização profunda do conceito [[Manipulação de Dados com Polars]].
+- **Conteúdo Adicionado**: Seções de I/O (leitura/escrita de CSV, Parquet, Excel), Junções (joins), Reshaping (Melt/Pivot) e Tratamento de Dados Ausentes (nulls).
+- **Impacto**: Fornece um guia de referência completo para manipulação de grandes conjuntos de dados transcriptômicos, cobrindo desde a carga de dados até a exportação de resultados filtrados.
+
+## [2026-05-22] Ingestão: Metodologias de Pipeline e Visualização (Rich/Polars)
+- **Ação**: Processamento do diálogo técnico contido em `raw/Nova conversa.md`.
+- **Fontes Criadas**: [[Nova-conversa-2026-05-22]]
+- **Conceitos Criados**: [[Visualização de Dados com Rich]], [[Rastreamento de Execução]]
+- **Conceitos Atualizados**: [[Manipulação de Dados com Polars]] (adição da arquitetura Polars Sandwich).
+- **Impacto**: Formaliza a metodologia de pipelines híbridos (Polars/Pandas) e estabelece padrões de monitoramento e visualização de runtime para o projeto da tese.
+
+## [2026-05-22] Ingestão: Automação com py4cytoscape
+- **Ação**: Pesquisa e processamento da biblioteca `py4cytoscape` conforme novo protocolo de ferramentas.
+- **Arquivo Raw**: `raw/py4cytoscape-docs.md`.
+- **Fontes Criadas**: [[py4cytoscape-Docs]]
+- **Conceitos Criados**: [[Visualização de Redes com py4cytoscape]]
+- **Impacto**: Estabelece a metodologia para visualização reprodutível de redes biológicas e integração com o ecossistema Python (Pandas/NetworkX).
+
+## [2026-05-22] Ingestão: Comparativo Pandas vs. Polars
+- **Ação**: Processamento da fonte `raw/Pandas vs. Polars...md` (via web fetch para detalhamento).
+- **Fontes Criadas**: [[Usando-Polars]]
+- **Conceitos Criados**: [[Bibliotecas-Python]], [[Manipulação de Dados com Polars]]
+- **Impacto**: Fornece base técnica para escolha de ferramentas de alta performance no processamento de grandes redes de co-expressão, com foco em eficiência de memória (redução de 97%) e velocidade (8x mais rápido).
+
 ## [2026-05-20] Criação de Novos Conceitos Metodológicos e Teóricos
 - **Ação**: Agente Generalist dissecou `wiki/fontes/` para extrair e fundamentar matematicamente novos conceitos da teoria de grafos e WGCNA.
 - **Conceitos Criados**: 

@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "bb56b956b9234715",
+        "id": "6f5b8ac87e033057",
         "type": "tabs",
-        "dimension": 24.096385542168676,
         "children": [
           {
-            "id": "7a50c0ef70e501db",
+            "id": "1491532380f96f48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/conceitos/Bibliotecas-Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bibliotecas-Python"
+            }
+          },
+          {
+            "id": "eb2811fa363987fc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,53 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
-      },
-      {
-        "id": "6f5b8ac87e033057",
-        "type": "tabs",
-        "dimension": 75.90361445783132,
-        "children": [
-          {
-            "id": "4088f0de50c6803a",
-            "type": "leaf",
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/home/m40ista/Documents/Obsidian Vaults/m40-tcc",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/sh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "linux": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "profileSourceId": "linuxIntegratedDefault",
-                  "serial": null
-                }
-              },
-              "icon": "terminal",
-              "title": "Terminal: sh"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,25 +46,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be5759b33de542f4",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "666dbe4043d89991",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#sbgn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "7366ae5ffa18ee9a",
@@ -130,13 +86,28 @@
       {
         "id": "029d74cfc9cb419c",
         "type": "tabs",
+        "dimension": 69.43907156673113,
         "children": [
+          {
+            "id": "be5759b33de542f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
           {
             "id": "a47832a58ca9fc0e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "wiki/conceitos/Visualização de Dados com Rich.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Visualização de Dados com Rich"
             }
           },
           {
@@ -216,11 +187,32 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
+      },
+      {
+        "id": "b6719765da022f68",
+        "type": "tabs",
+        "dimension": 30.560928433268863,
+        "children": [
+          {
+            "id": "b65f422ce6f3c5a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "theses/pd-transcriptomics-convergence/02_Guia_Manipulacao_Dados.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02_Guia_Manipulacao_Dados"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 398.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,49 +228,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4088f0de50c6803a",
+  "active": "eb2811fa363987fc",
   "lastOpenFiles": [
+    "wiki/conceitos/Redes de Co-expressão.md",
+    "wiki/conceitos/Bibliotecas-Python.md",
+    "theses/pd-transcriptomics-convergence/02_Guia_Manipulacao_Dados.md",
+    "wiki/conceitos/Visualização de Dados com Rich.md",
+    "wiki/conceitos/Rastreamento de Execução.md",
+    "theses/pd-transcriptomics-convergence/01_Pipeline_Metodologico.md",
+    "wiki/conceitos/Visualização de Redes com py4cytoscape.md",
+    "wiki/fontes/Usando-Polars.md",
+    "wiki/conceitos/Manipulação de Dados com Polars.md",
+    "theses/pd-transcriptomics-convergence/bin/cytoscape/README.md",
+    "theses/pd-transcriptomics-convergence/bin/cytoscape/rich.md",
+    "wiki/index.md",
+    "wiki/fontes/Nova-conversa-2026-05-22.md",
+    "raw/Nova conversa.md",
+    "conversation.html",
+    "wiki/fontes/py4cytoscape-Docs.md",
+    "theses/dddd.md",
+    "theses/pd-transcriptomics-convergence/docs/manustript/papers/park_et_al_2026.pdf",
+    "theses/pd-transcriptomics-convergence/docs/manustript/networks/LRRK2_isogenic.cys",
+    "theses/pd-transcriptomics-convergence/docs/manustript/metadata/experimental_framework_sample_metadata_GSE90469.xlsx",
+    "theses/pd-transcriptomics-convergence/docs/manustript/papers",
+    "theses/pd-transcriptomics-convergence/docs/manustript/networks",
+    "theses/pd-transcriptomics-convergence/docs/manustript/metadata",
+    "theses/pd-transcriptomics-convergence/docs/manustript",
+    "theses/pd-transcriptomics-convergence/docs",
+    "theses/pd-transcriptomics-convergence/results/GBA_Ranked.xlsx",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_SNCA_Combined.png",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_LRRK2_Non-Isogenic.png",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_LRRK2_Isogenic.png",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_LRRK2_Combined.png",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_IVS_hom.png",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_IVS_het.png",
+    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_Combined.png",
+    "theses/pd-transcriptomics-convergence/plots/SNCA_Combined-QC_SizeFactors.png",
+    "theses/pd-transcriptomics-convergence/plots/SNCA_Combined-QC_PCA.png",
+    "theses/pd-transcriptomics-convergence/plots/SNCA_Combined-QC_Dispersion.png",
+    "raw/py4cytoscape-docs.md",
+    "wiki/conceitos/Modelagem de Redes Biológicas.md",
+    "raw/Pandas vs. Polars A Complete Comparison of Syntax, Speed, and Memory.md",
     "wiki/fontes/Park-et-al-2026-GBA1.md",
     "wiki/entidades/APOE.md",
     "wiki/entidades/GBA2.md",
     "wiki/entidades/RAB11A.md",
     "wiki/entidades/LAMP1.md",
     "wiki/entidades/EEA1.md",
-    "raw/GBA.txt",
-    "wiki/fontes/Zhang-Horvath-2005-WGCNA-Framework.md",
-    "wiki/fontes/Zagare-et-al-2025.md",
-    "raw/GBA.pdf",
-    "raw/Unconfirmed 231542.crdownload",
-    "wiki/fontes/Yu-et-al-2007-Bottlenecks.md",
-    "wiki/fontes/Torshizi-et-al-2024-Proteogenomics.md",
-    "wiki/fontes/Tran-et-al-2020.md",
-    "theses/dddd.md",
-    "theses/data/figs/enrichment/LRRK2/LRRK2_Mol.svg",
-    "theses/data/figs/enrichment/LRRK2/Unconfirmed 342646.crdownload",
-    "theses/data/figs/enrichment/LRRK2",
-    "theses/data/figs/enrichment",
-    "theses/data/figs/LRRK2_UP_string_vector_graphic.svg",
-    "theses/data/figs/Unconfirmed 403487.crdownload",
-    "theses/data/figs/GBA_UP_string_vector_graphic.svg",
-    "theses/data/figs/Unconfirmed 776106.crdownload",
-    "theses/data/figs/string_normal_image.png",
-    "theses/data/figs/Unconfirmed 287946.crdownload",
-    "theses/data/string_mapping.tsv",
-    "theses/index.md",
-    "theses/data/figs/GBA_het_upstring_vector_graphic.svg",
-    "theses/data/figs/GBA_het_up_enrichment_TISSUES_sim0.8_graph.svg",
-    "GEMINI.md",
-    "theses/TCC_Parkinson_PT-BR.md",
-    "wiki/fontes/Albert-et-al-2000.md",
-    "wiki/conceitos/Organoides de Mesencéfalo.md",
-    "wiki/conceitos/Random Walk with Restart.md",
-    "wiki/conceitos/Redes de Co-expressão.md",
-    "wiki/conceitos/Redes Scale-free.md",
-    "wiki/conceitos/Redes Small-World.md",
-    "wiki/conceitos/Robustez.md",
-    "wiki/conceitos/Sinalização ROBO.md",
-    "wiki/conceitos/Soft Thresholding.md",
-    "wiki/conceitos/Tolerância a Erros.md",
-    "wiki/conceitos/Via Autofagia-Lisossomo.md"
+    "wiki/fontes/Zhang-Horvath-2005-WGCNA-Framework.md"
   ]
 }

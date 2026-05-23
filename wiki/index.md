@@ -1,6 +1,7 @@
 # Índice da Wiki
 
-## Fontes
+## Fontes (Artigos Científicos)
+- [[Nova-conversa-2026-05-22]] - Metodologias de pipelines (Polars Sandwich) e visualização.
 - [[Tran-et-al-2020]] - Predisposições genéticas em células hiPSC.
 - [[Zagare-et-al-2025]] - Grafo de Conhecimento e desregulação compartilhada (ROBO).
 - [[Albert-et-al-2000]] - Tolerância a erros e ataques em redes complexas.
@@ -22,6 +23,12 @@
 - [[Le-Novere-et-al-2009-SBGN]] - Padronização visual de redes de biologia de sistemas.
 - [[Zhao-et-al-2024-LRRK2]] - Transcriptômica e WGCNA do interatoma LRRK2 em sPD e LRRK2-PD.
 
+## Ferramentas e Bibliotecas
+- [[Bibliotecas-Python]] - Visão geral do ecossistema para bioinformática.
+- [[Manipulação de Dados com Polars]] - Processamento de alto desempenho (Lazy API).
+- [[Visualização de Redes com py4cytoscape]] - Automação e estilização programática.
+- [[py4cytoscape-Docs]] - Documentação técnica e arquitetura CyREST.
+- [[Usando-Polars]] - Benchmarks e comparação com Pandas.
 
 ## Conceitos
 - [[Centralidade de Intermediação]]
@@ -39,6 +46,7 @@
 - [[Motivos de Rede]]
 - [[Organoides de Mesencéfalo]]
 - [[Random Walk with Restart]]
+- [[Rastreamento de Execução]]
 - [[Redes de Co-expressão]]
 - [[Redes Scale-free]]
 - [[Redes Small-World]]
@@ -47,6 +55,7 @@
 - [[Soft Thresholding]]
 - [[Tolerância a Erros]]
 - [[Via Autofagia-Lisossomo]]
+- [[Visualização de Dados com Rich]]
 
 ## Entidades
 - [[SNCA]] (Alfa-sinucleína)
