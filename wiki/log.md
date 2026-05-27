@@ -1,5 +1,9 @@
 # Wiki Log
 
+## [2026-05-27] - Ingestão de Nova Fonte
+- **Fonte**: [[Coukos-Krainc-2024]] (Review em *Nature Reviews Neuroscience*).
+- **Operação**: Extração de mecanismos de convergência (mitocôndria, lisossomo, sinapse) e contatos inter-organelas. Atualização de múltiplas entidades e conceitos.
+
 ## [2026-05-22] Expansão: Documentação Prática do Polars
 - **Ação**: Atualização profunda do conceito [[Manipulação de Dados com Polars]].
 - **Conteúdo Adicionado**: Seções de I/O (leitura/escrita de CSV, Parquet, Excel), Junções (joins), Reshaping (Melt/Pivot) e Tratamento de Dados Ausentes (nulls).

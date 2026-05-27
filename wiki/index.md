@@ -1,6 +1,7 @@
 # Índice da Wiki
 
 ## Fontes (Artigos Científicos)
+- [[Coukos-Krainc-2024]] - Revisão de genes-chave e mecanismos convergentes (2024).
 - [[Nova-conversa-2026-05-22]] - Metodologias de pipelines (Polars Sandwich) e visualização.
 - [[Tran-et-al-2020]] - Predisposições genéticas em células hiPSC.
 - [[Zagare-et-al-2025]] - Grafo de Conhecimento e desregulação compartilhada (ROBO).
@@ -33,9 +34,11 @@
 ## Conceitos
 - [[Centralidade de Intermediação]]
 - [[Conexão Preferencial]]
+- [[Contatos Inter-organelas]]
 - [[Convergência Fenotípica]]
 - [[Disfunção Mitocondrial]]
 - [[Doença de Parkinson]]
+- [[Dopamina Oxidada]]
 - [[Fragmentação de Rede]]
 - [[Grafo de Conhecimento]]
 - [[Hubs (Nós Centrais)]]
@@ -58,13 +61,22 @@
 - [[Visualização de Dados com Rich]]
 
 ## Entidades
-- [[SNCA]] (Alfa-sinucleína)
-- [[LRRK2]] (Leucine-rich repeat kinase 2)
-- [[PRKN]] (Parkin)
-- [[PINK1]] (PTEN-induced kinase 1)
+- [[ACTB]] (Actina Beta)
+- [[APOE]] (Apolipoproteína E)
+- [[ATP13A2]] (PARK9)
+- [[EEA1]] (Early Endosome Antigen 1)
 - [[GBA]] (Glicosilceramidase Beta)
+- [[GBA2]] (Glicosilceramidase Beta Não-lisossomal)
+- [[LAMP1]] (Lysosomal Associated Membrane Protein 1)
+- [[LRRK2]] (Leucine-rich repeat kinase 2)
+- [[MORF4L2]] (Mortality Factor 4 Like 2)
+- [[PARK7]] (DJ-1)
+- [[PINK1]] (PTEN-induced kinase 1)
+- [[PRKN]] (Parkin)
+- [[RAB11A]] (Ras-related protein Rab-11A)
 - [[RHOT1]] (Miro1)
 - [[ROBO2]] (Roundabout Guidance Receptor 2)
-- [[ACTB]] (Actina Beta)
+- [[SNCA]] (Alfa-sinucleína)
 - [[TUBA1A]] (Tubulina Alfa 1a)
-- [[MORF4L2]] (Mortality Factor 4 Like 2)
+- [[VPS13C]] (PARK23)
+- [[VPS35]] (PARK17)

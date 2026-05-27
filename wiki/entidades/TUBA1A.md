@@ -3,7 +3,8 @@
 - **Símbolo Oficial**: TUBA1A
 - **Função Biológica**: Principal componente dos microtúbulos. Crucial para o transporte axonal, manutenção da morfologia neuronal e migração celular.
 
-## Dados Quantitativos e de Rede
+## Patologia na DP
+- **Sequestro em Corpos de Lewy**: A α-sinucleina agregada interage diretamente com a tubulina, sequestrando-a para dentro dos Corpos de Lewy (LBs). Isso resulta em defeitos na organização dos microtúbulos e prejuízo no transporte axonal [[Coukos-Krainc-2024]].
 - **Topologia Scale-free**: Atua como um nó central altamente conectado no PD-KG. Juntamente com a actina ([[ACTB]]), participa de módulos gigantes relacionados à **Organização do Citoesqueleto** e **Axonogênese**.
 - **Compartilhamento (Overlap)**: Identificada nos Top 100 DEGs em organoides com mutação monogênica e também aberrante em pacientes DPI [[Zagare-et-al-2025]].
 

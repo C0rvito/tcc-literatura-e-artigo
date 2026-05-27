@@ -8,16 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1491532380f96f48",
+            "id": "cd09bfd3e18b6275",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "theses/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
+            }
+          },
+          {
+            "id": "21408f0d1db5df64",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "theses/Drawing 2026-05-27 11.50.10.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-05-27 11.50.10.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 716.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,8 +239,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1491532380f96f48",
+  "active": "2a95e231fe1d2dfb",
   "lastOpenFiles": [
+    "theses/Drawing 2026-05-27 11.50.10.excalidraw.md",
+    "theses/index.md",
+    "wiki/fontes/Coukos-Krainc-2024.md",
+    "theses/lrrk2_snca.png",
+    "theses/Framework computacional.md",
+    "raw/coukos.pdf",
+    "raw/Unconfirmed 1388.crdownload",
+    "wiki/fontes/Gao-et-al-2018.md",
     "theses/pd-transcriptomics-convergence/logs/py4cytoscape.log",
     "theses/pd-transcriptomics-convergence/logs",
     "theses/pd-transcriptomics-convergence/docs/manustript/papers/park_et_al_2026.pdf",
@@ -232,9 +257,6 @@
     "theses/pd-transcriptomics-convergence/docs/manustript/papers",
     "theses/pd-transcriptomics-convergence/docs/manustript/networks",
     "theses/pd-transcriptomics-convergence/docs/manustript/metadata",
-    "theses/pd-transcriptomics-convergence/docs/manustript",
-    "theses/pd-transcriptomics-convergence/docs",
-    "theses/pd-transcriptomics-convergence/results/session_info.txt",
     "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_SNCA_Combined.png",
     "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_IVS_hom.png",
     "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_IVS_het.png",
@@ -244,7 +266,6 @@
     "theses/pd-transcriptomics-convergence/plots/GSEA_RidgePlot_GBA_IVS_hom.png",
     "theses/pd-transcriptomics-convergence/plots/GSEA_RidgePlot_GBA_IVS_het.png",
     "theses/pd-transcriptomics-convergence/plots/GSEA_RidgePlot_GBA_Combined.png",
-    "theses/pd-transcriptomics-convergence/plots/GSEA_Dotplot_SNCA_Combined.png",
     "wiki/fontes/Nova-conversa-2026-05-22.md",
     "wiki/conceitos/Rastreamento de Execução.md",
     "wiki/conceitos/Visualização de Dados com Rich.md",
@@ -265,10 +286,6 @@
     "theses/dddd.md",
     "raw/py4cytoscape-docs.md",
     "wiki/conceitos/Modelagem de Redes Biológicas.md",
-    "raw/Pandas vs. Polars A Complete Comparison of Syntax, Speed, and Memory.md",
-    "wiki/fontes/Park-et-al-2026-GBA1.md",
-    "wiki/entidades/APOE.md",
-    "wiki/entidades/GBA2.md",
-    "wiki/entidades/RAB11A.md"
+    "raw/Pandas vs. Polars A Complete Comparison of Syntax, Speed, and Memory.md"
   ]
 }
