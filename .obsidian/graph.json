@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "file:rich",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 0.0777180989583333,
   "linkDistance": 500,
-  "scale": 0.061658773034071426,
-  "close": true
+  "scale": 0.09248815955110715,
+  "close": false
 }

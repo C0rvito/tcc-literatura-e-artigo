@@ -11,28 +11,13 @@
             "id": "1491532380f96f48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/conceitos/Bibliotecas-Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bibliotecas-Python"
-            }
-          },
-          {
-            "id": "eb2811fa363987fc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sbgn",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "7366ae5ffa18ee9a",
@@ -185,6 +169,18 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "192958ab345fce20",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "theses/pd-transcriptomics-convergence/bin/cytoscape/Drawing 2026-05-23 02.32.00.excalidraw.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
           }
         ],
         "currentTab": 6
@@ -198,21 +194,17 @@
             "id": "b65f422ce6f3c5a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "theses/pd-transcriptomics-convergence/02_Guia_Manipulacao_Dados.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "02_Guia_Manipulacao_Dados"
+              "title": "New tab"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,28 +217,15 @@
       "bases:Create new base": false,
       "terminal:Open terminal": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "eb2811fa363987fc",
+  "active": "1491532380f96f48",
   "lastOpenFiles": [
-    "wiki/conceitos/Redes de Co-expressão.md",
-    "wiki/conceitos/Bibliotecas-Python.md",
-    "theses/pd-transcriptomics-convergence/02_Guia_Manipulacao_Dados.md",
-    "wiki/conceitos/Visualização de Dados com Rich.md",
-    "wiki/conceitos/Rastreamento de Execução.md",
-    "theses/pd-transcriptomics-convergence/01_Pipeline_Metodologico.md",
-    "wiki/conceitos/Visualização de Redes com py4cytoscape.md",
-    "wiki/fontes/Usando-Polars.md",
-    "wiki/conceitos/Manipulação de Dados com Polars.md",
-    "theses/pd-transcriptomics-convergence/bin/cytoscape/README.md",
-    "theses/pd-transcriptomics-convergence/bin/cytoscape/rich.md",
-    "wiki/index.md",
-    "wiki/fontes/Nova-conversa-2026-05-22.md",
-    "raw/Nova conversa.md",
-    "conversation.html",
-    "wiki/fontes/py4cytoscape-Docs.md",
-    "theses/dddd.md",
+    "theses/pd-transcriptomics-convergence/logs/py4cytoscape.log",
+    "theses/pd-transcriptomics-convergence/logs",
     "theses/pd-transcriptomics-convergence/docs/manustript/papers/park_et_al_2026.pdf",
     "theses/pd-transcriptomics-convergence/docs/manustript/networks/LRRK2_isogenic.cys",
     "theses/pd-transcriptomics-convergence/docs/manustript/metadata/experimental_framework_sample_metadata_GSE90469.xlsx",
@@ -255,26 +234,41 @@
     "theses/pd-transcriptomics-convergence/docs/manustript/metadata",
     "theses/pd-transcriptomics-convergence/docs/manustript",
     "theses/pd-transcriptomics-convergence/docs",
-    "theses/pd-transcriptomics-convergence/results/GBA_Ranked.xlsx",
+    "theses/pd-transcriptomics-convergence/results/session_info.txt",
     "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_SNCA_Combined.png",
-    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_LRRK2_Non-Isogenic.png",
-    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_LRRK2_Isogenic.png",
-    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_LRRK2_Combined.png",
     "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_IVS_hom.png",
     "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_IVS_het.png",
-    "theses/pd-transcriptomics-convergence/plots/VolcanoPlot_GBA_Combined.png",
-    "theses/pd-transcriptomics-convergence/plots/SNCA_Combined-QC_SizeFactors.png",
     "theses/pd-transcriptomics-convergence/plots/SNCA_Combined-QC_PCA.png",
-    "theses/pd-transcriptomics-convergence/plots/SNCA_Combined-QC_Dispersion.png",
+    "theses/pd-transcriptomics-convergence/plots/MAPlot_GBA_IVS_hom.png",
+    "theses/pd-transcriptomics-convergence/plots/MAPlot_GBA_Combined.png",
+    "theses/pd-transcriptomics-convergence/plots/GSEA_RidgePlot_GBA_IVS_hom.png",
+    "theses/pd-transcriptomics-convergence/plots/GSEA_RidgePlot_GBA_IVS_het.png",
+    "theses/pd-transcriptomics-convergence/plots/GSEA_RidgePlot_GBA_Combined.png",
+    "theses/pd-transcriptomics-convergence/plots/GSEA_Dotplot_SNCA_Combined.png",
+    "wiki/fontes/Nova-conversa-2026-05-22.md",
+    "wiki/conceitos/Rastreamento de Execução.md",
+    "wiki/conceitos/Visualização de Dados com Rich.md",
+    "theses/pd-transcriptomics-convergence/bin/cytoscape/rich.md",
+    "wiki/conceitos/Bibliotecas-Python.md",
+    "wiki/conceitos/Manipulação de Dados com Polars.md",
+    "theses/pd-transcriptomics-convergence/bin/cytoscape/Drawing 2026-05-23 02.32.00.excalidraw.md",
+    "theses/pd-transcriptomics-convergence/bin/cytoscape/Untitled.md",
+    "wiki/conceitos/Redes de Co-expressão.md",
+    "theses/pd-transcriptomics-convergence/02_Guia_Manipulacao_Dados.md",
+    "theses/pd-transcriptomics-convergence/01_Pipeline_Metodologico.md",
+    "wiki/conceitos/Visualização de Redes com py4cytoscape.md",
+    "wiki/fontes/Usando-Polars.md",
+    "theses/pd-transcriptomics-convergence/bin/cytoscape/README.md",
+    "wiki/index.md",
+    "raw/Nova conversa.md",
+    "wiki/fontes/py4cytoscape-Docs.md",
+    "theses/dddd.md",
     "raw/py4cytoscape-docs.md",
     "wiki/conceitos/Modelagem de Redes Biológicas.md",
     "raw/Pandas vs. Polars A Complete Comparison of Syntax, Speed, and Memory.md",
     "wiki/fontes/Park-et-al-2026-GBA1.md",
     "wiki/entidades/APOE.md",
     "wiki/entidades/GBA2.md",
-    "wiki/entidades/RAB11A.md",
-    "wiki/entidades/LAMP1.md",
-    "wiki/entidades/EEA1.md",
-    "wiki/fontes/Zhang-Horvath-2005-WGCNA-Framework.md"
+    "wiki/entidades/RAB11A.md"
   ]
 }
